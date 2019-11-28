@@ -1,0 +1,76 @@
+// Baseline Dark theme
+  $primary: #BB86FC;
+  $primary-variant: #3700B3;
+  $secondary: #03DAC6;
+  $background: #121212;
+  $surface: #121212;
+  $error: #CF6679;
+  $on-primary: #000000;
+  $on-secondary: #000000;
+  $on-background: #FFFFFF;
+  $on-surface: #FFFFFF;
+  $on-error: #000000;
+// Baseline Default theme
+/*
+  $primary: #6200EE;
+  $primary-variant: #3700B3;
+  $secondary: #03DAC6;
+  $secondary-variant: #018786;
+  $background: #FFFFFF;
+  $surface: #FFFFFF;
+  $error: #B00020;
+  $on-primary: #FFFFFF;
+  $on-secondary: #000000;
+  $on-background: #000000;
+  $on-surface: #000000;
+  $on-error: #FFFFFF;
+*/
+
+.card-container {
+  padding-top: 6px;
+  margin-bottom: 12px;
+  p {
+    margin-bottom: 8px;
+    line-height: 20px;
+  }
+  button.card-toggler {
+    background-color: rgba(49, 49, 255, 0.5);
+    border-color: transparent;
+    border-radius: 0 0 3px 3px;
+    font-size: 12px;
+    opacity: 60%;
+  }
+  :focus {
+    outline: none;
+  }
+}
+
+.jumbotron {
+  background-color: $background;
+  border: none;
+}
+
+.card-container {
+  padding-top: 6px;
+  margin-bottom: 12px;
+  //background-color: #bb86fc;
+  background-color: #343a40;
+  color: #f9f9f9;
+}
+.card {
+  //position: relative;
+  //display: flex;
+  //flex-direction: column;
+  //min-width: 0;
+  //word-wrap: break-word;
+  //background-color: #fff;
+  //background-clip: border-box;
+  //border: 1px solid rgba(0, 0, 0, 0.125);
+  //border-radius: 0.25rem;
+}
+.card-container button.card-toggler {
+  background-color: $secondary;
+  border-color: $secondary;
+  border-radius: 0 0 3px 3px;
+  font-size: 12px;
+}

@@ -1,0 +1,1813 @@
+{
+  "instrucciones": [
+    {
+      "id": 1,
+      "español": "Para cada recuadro, elija la palabra que más se aplica a usted"
+    }
+  ],
+  "respuestas": [
+    {
+      "id": 1,
+      "value": "Animado",
+      "definition": "Que tiene el ánimo alegre o es de carácter alegre"
+    },
+    {
+      "id": 2,
+      "value": "Aventurero",
+      "definition": "Que ama o que busca la aventura"
+    },
+    {
+      "id": 3,
+      "value": "Analítico",
+      "definition": "Persona reservada, tranquila. Le gusta llegar al fondo de las cosas"
+    },
+    {
+      "id": 4,
+      "value": "Adaptable",
+      "definition": "Que se adapta con facilidad a algo"
+    },
+    {
+      "id": 5,
+      "value": "Persistente",
+      "definition": "Persona que se fija una meta u objetivo y continúa luchando por alcanzarla a pesar de cualquier circunstancia adversa que pudiera presentarse en su camino"
+    },
+    {
+      "id": 6,
+      "value": "Juguetón",
+      "definition": "Que juguetea, juega con frecuencia o es aficionado a juguetear"
+    },
+    {
+      "id": 7,
+      "value": "Persuasivo",
+      "definition": "Que tiene fuerza y eficacia para convencer"
+    },
+    {
+      "id": 8,
+      "value": "Plácido",
+      "definition": "Persona dócil, afable, pacífica y de trato agradable. Es aquel que no suele discutir con otros sujetos y que, por lo general, se muestra tranquilo y de buen humor"
+    },
+    {
+      "id": 9,
+      "value": "Sumiso",
+      "definition": "Que se somete y se deja dominar por la fuerza de las circunstancias o por otras personas aceptando, sin cuestionarlos, su autoridad y su voluntad"
+    },
+    {
+      "id": 10,
+      "value": "Abnegado",
+      "definition": "Hacer algo difícil o que no gusta o renunciar a una cosa por beneficiar a alguien o por obtener algo"
+    },
+    {
+      "id": 11,
+      "value": "Sociable",
+      "definition": "Que tiene facilidad para entablar relaciones sociales y le gusta relacionarse con otras personas"
+    },
+    {
+      "id": 12,
+      "value": "Decidido",
+      "definition": "Que actúa con decisión y seguridad"
+    },
+    {
+      "id": 13,
+      "value": "Considerado",
+      "definition": "Que obra con reflexión. Que atiende y respeta a los demás, o que es atendido y respetado"
+    },
+    {
+      "id": 14,
+      "value": "Controlado",
+      "definition": ""
+    },
+    {
+      "id": 15,
+      "value": "Competitivo",
+      "definition": ""
+    },
+    {
+      "id": 16,
+      "value": "Convincente",
+      "definition": ""
+    },
+    {
+      "id": 17,
+      "value": "Entusiasta",
+      "definition": ""
+    },
+    {
+      "id": 18,
+      "value": "Respetuoso",
+      "definition": ""
+    },
+    {
+      "id": 19,
+      "value": "Reservado",
+      "definition": ""
+    },
+    {
+      "id": 20,
+      "value": "Inventivo",
+      "definition": ""
+    },
+    {
+      "value": "Contento",
+      "definition": "",
+      "id": 21
+    },
+    {
+      "value": "Sensible",
+      "definition": "",
+      "id": 22
+    },
+    {
+      "value": "Autosuficiente",
+      "definition": "",
+      "id": 23
+    },
+    {
+      "value": "Enérgico",
+      "definition": null,
+      "id": 24
+    },
+    {
+      "value": "Planificador",
+      "definition": null,
+      "id": 25
+    },
+    {
+      "value": "Paciente",
+      "definition": null,
+      "id": 26
+    },
+    {
+      "value": "Positivo",
+      "definition": null,
+      "id": 27
+    },
+    {
+      "value": "Activista",
+      "definition": null,
+      "id": 28
+    },
+    {
+      "value": "Seguro",
+      "definition": null,
+      "id": 29
+    },
+    {
+      "value": "Espontáneo",
+      "definition": null,
+      "id": 30
+    },
+    {
+      "value": "Puntual",
+      "definition": null,
+      "id": 31
+    },
+    {
+      "value": "Tímido",
+      "definition": null,
+      "id": 32
+    },
+    {
+      "value": "Ordenado",
+      "definition": null,
+      "id": 33
+    },
+    {
+      "value": "Atento",
+      "definition": null,
+      "id": 34
+    },
+    {
+      "value": "Abierto",
+      "definition": null,
+      "id": 35
+    },
+    {
+      "value": "Optimista",
+      "definition": null,
+      "id": 36
+    },
+    {
+      "value": "Amigable",
+      "definition": null,
+      "id": 37
+    },
+    {
+      "value": "Fiel",
+      "definition": null,
+      "id": 38
+    },
+    {
+      "value": "Chistoso",
+      "definition": null,
+      "id": 39
+    },
+    {
+      "value": "Dominante",
+      "definition": null,
+      "id": 40
+    },
+    {
+      "value": "Osado",
+      "definition": null,
+      "id": 41
+    },
+    {
+      "value": "Encantador",
+      "definition": null,
+      "id": 42
+    },
+    {
+      "value": "Diplomático",
+      "definition": null,
+      "id": 43
+    },
+    {
+      "value": "Detallista",
+      "definition": null,
+      "id": 44
+    },
+    {
+      "value": "Alegre",
+      "definition": null,
+      "id": 45
+    },
+    {
+      "value": "Constante",
+      "definition": null,
+      "id": 46
+    },
+    {
+      "value": "Culto",
+      "definition": null,
+      "id": 47
+    },
+    {
+      "value": "Confiado",
+      "definition": null,
+      "id": 48
+    },
+    {
+      "value": "Idealista",
+      "definition": null,
+      "id": 49
+    },
+    {
+      "value": "Independiente",
+      "definition": null,
+      "id": 50
+    },
+    {
+      "value": "Inofensivo",
+      "definition": null,
+      "id": 51
+    },
+    {
+      "value": "Inspirador",
+      "definition": null,
+      "id": 52
+    },
+    {
+      "value": "Cálido",
+      "definition": null,
+      "id": 53
+    },
+    {
+      "value": "Decisivo",
+      "definition": null,
+      "id": 54
+    },
+    {
+      "value": "Humor Seco",
+      "definition": null,
+      "id": 55
+    },
+    {
+      "value": "Introspectivo",
+      "definition": null,
+      "id": 56
+    },
+    {
+      "value": "Conciliador",
+      "definition": null,
+      "id": 57
+    },
+    {
+      "value": "Músico",
+      "definition": null,
+      "id": 58
+    },
+    {
+      "value": "Instigador",
+      "definition": null,
+      "id": 59
+    },
+    {
+      "value": "Cordial",
+      "definition": null,
+      "id": 60
+    },
+    {
+      "value": "Considerado",
+      "definition": null,
+      "id": 61
+    },
+    {
+      "value": "Tenaz",
+      "definition": null,
+      "id": 62
+    },
+    {
+      "value": "Hablador",
+      "definition": null,
+      "id": 63
+    },
+    {
+      "value": "Tolerante",
+      "definition": null,
+      "id": 64
+    },
+    {
+      "value": "Escucha",
+      "definition": null,
+      "id": 65
+    },
+    {
+      "value": "Leal",
+      "definition": null,
+      "id": 66
+    },
+    {
+      "value": "Líder",
+      "definition": null,
+      "id": 67
+    },
+    {
+      "value": "Vivaz",
+      "definition": null,
+      "id": 68
+    },
+    {
+      "value": "Contento",
+      "definition": null,
+      "id": 69
+    },
+    {
+      "value": "Jefe",
+      "definition": null,
+      "id": 70
+    },
+    {
+      "value": "Organizado",
+      "definition": null,
+      "id": 71
+    },
+    {
+      "value": "Listo",
+      "definition": null,
+      "id": 72
+    },
+    {
+      "value": "Perfeccionista",
+      "definition": null,
+      "id": 73
+    },
+    {
+      "value": "Permisivo",
+      "definition": null,
+      "id": 74
+    },
+    {
+      "value": "Productivo",
+      "definition": null,
+      "id": 75
+    },
+    {
+      "value": "Popular",
+      "definition": null,
+      "id": 76
+    },
+    {
+      "value": "Jovial",
+      "definition": null,
+      "id": 77
+    },
+    {
+      "value": "Atrevido",
+      "definition": null,
+      "id": 78
+    },
+    {
+      "value": "Se comporta bien",
+      "definition": null,
+      "id": 79
+    },
+    {
+      "value": "Equilibrado",
+      "definition": null,
+      "id": 80
+    },
+    {
+      "value": "Estridente",
+      "definition": null,
+      "id": 81
+    },
+    {
+      "value": "Mandón",
+      "definition": null,
+      "id": 82
+    },
+    {
+      "value": "Apocado",
+      "definition": null,
+      "id": 83
+    },
+    {
+      "value": "Soso",
+      "definition": null,
+      "id": 84
+    },
+    {
+      "value": "Indisciplinado",
+      "definition": null,
+      "id": 85
+    },
+    {
+      "value": "Antipático",
+      "definition": null,
+      "id": 86
+    },
+    {
+      "value": "Sin Entusiasmo",
+      "definition": null,
+      "id": 87
+    },
+    {
+      "value": "Implacable",
+      "definition": null,
+      "id": 88
+    },
+    {
+      "value": "Reticente",
+      "definition": null,
+      "id": 89
+    },
+    {
+      "value": "Resentido",
+      "definition": null,
+      "id": 90
+    },
+    {
+      "value": "Resistente",
+      "definition": null,
+      "id": 91
+    },
+    {
+      "value": "Repetidor",
+      "definition": null,
+      "id": 92
+    },
+    {
+      "value": "Exigente",
+      "definition": null,
+      "id": 93
+    },
+    {
+      "value": "Temeroso",
+      "definition": null,
+      "id": 94
+    },
+    {
+      "value": "Olvidadizo",
+      "definition": null,
+      "id": 95
+    },
+    {
+      "value": "Franco",
+      "definition": null,
+      "id": 96
+    },
+    {
+      "value": "Impaciente",
+      "definition": null,
+      "id": 97
+    },
+    {
+      "value": "Inseguro",
+      "definition": null,
+      "id": 98
+    },
+    {
+      "value": "Indeciso",
+      "definition": null,
+      "id": 99
+    },
+    {
+      "value": "Interrumpe",
+      "definition": null,
+      "id": 100
+    },
+    {
+      "value": "Impopular",
+      "definition": null,
+      "id": 101
+    },
+    {
+      "value": "No Compromete",
+      "definition": null,
+      "id": 102
+    },
+    {
+      "value": "Imprevisible",
+      "definition": null,
+      "id": 103
+    },
+    {
+      "value": "Frío",
+      "definition": null,
+      "id": 104
+    },
+    {
+      "value": "Terco",
+      "definition": null,
+      "id": 105
+    },
+    {
+      "value": "Descuidado",
+      "definition": null,
+      "id": 106
+    },
+    {
+      "value": "Difícil contentar",
+      "definition": null,
+      "id": 107
+    },
+    {
+      "value": "Tolerante",
+      "definition": null,
+      "id": 108
+    },
+    {
+      "value": "Insípido",
+      "definition": null,
+      "id": 109
+    },
+    {
+      "value": "Pesimista",
+      "definition": null,
+      "id": 110
+    },
+    {
+      "value": "Orgulloso",
+      "definition": null,
+      "id": 111
+    },
+    {
+      "value": "Vacilante",
+      "definition": null,
+      "id": 112
+    },
+    {
+      "value": "Descuidado",
+      "definition": null,
+      "id": 113
+    },
+    {
+      "value": "Iracundo",
+      "definition": null,
+      "id": 114
+    },
+    {
+      "value": "Sin Motivación",
+      "definition": null,
+      "id": 115
+    },
+    {
+      "value": "Argumentador",
+      "definition": null,
+      "id": 116
+    },
+    {
+      "value": "Taciturno",
+      "definition": null,
+      "id": 117
+    },
+    {
+      "value": "Ingenuo",
+      "definition": null,
+      "id": 118
+    },
+    {
+      "value": "Negativo",
+      "definition": null,
+      "id": 119
+    },
+    {
+      "value": "Nervioso",
+      "definition": null,
+      "id": 120
+    },
+    {
+      "value": "Desprendido",
+      "definition": null,
+      "id": 121
+    },
+    {
+      "value": "Ansioso",
+      "definition": null,
+      "id": 122
+    },
+    {
+      "value": "Abstraído",
+      "definition": null,
+      "id": 123
+    },
+    {
+      "value": "Adicto al Trabajo",
+      "definition": null,
+      "id": 124
+    },
+    {
+      "value": "Indiferente",
+      "definition": null,
+      "id": 125
+    },
+    {
+      "value": "Susceptible",
+      "definition": null,
+      "id": 126
+    },
+    {
+      "value": "Indiscreto",
+      "definition": null,
+      "id": 127
+    },
+    {
+      "value": "Tímido",
+      "definition": null,
+      "id": 128
+    },
+    {
+      "value": "Manipulador",
+      "definition": null,
+      "id": 129
+    },
+    {
+      "value": "Dudoso",
+      "definition": null,
+      "id": 130
+    },
+    {
+      "value": "Desorganizado",
+      "definition": null,
+      "id": 131
+    },
+    {
+      "value": "Dominante",
+      "definition": null,
+      "id": 132
+    },
+    {
+      "value": "Escéptico",
+      "definition": null,
+      "id": 133
+    },
+    {
+      "value": "Inconsistente",
+      "definition": null,
+      "id": 134
+    },
+    {
+      "value": "Introvertido",
+      "definition": null,
+      "id": 135
+    },
+    {
+      "value": "Intolerante",
+      "definition": null,
+      "id": 136
+    },
+    {
+      "value": "Emocional",
+      "definition": null,
+      "id": 137
+    },
+    {
+      "value": "Desordenado",
+      "definition": null,
+      "id": 138
+    },
+    {
+      "value": "Moroso",
+      "definition": null,
+      "id": 139
+    },
+    {
+      "value": "Quejumbroso",
+      "definition": null,
+      "id": 140
+    },
+    {
+      "value": "Atolondrado",
+      "definition": null,
+      "id": 141
+    },
+    {
+      "value": "Lento",
+      "definition": null,
+      "id": 142
+    },
+    {
+      "value": "Testarudo",
+      "definition": null,
+      "id": 143
+    },
+    {
+      "value": "Ostentoso",
+      "definition": null,
+      "id": 144
+    },
+    {
+      "value": "Precipitado",
+      "definition": null,
+      "id": 145
+    },
+    {
+      "value": "Solitario",
+      "definition": null,
+      "id": 146
+    },
+    {
+      "value": "Prepotente",
+      "definition": null,
+      "id": 147
+    },
+    {
+      "value": "Perezoso",
+      "definition": null,
+      "id": 148
+    },
+    {
+      "value": "Variable",
+      "definition": null,
+      "id": 149
+    },
+    {
+      "value": "Sin Ambición",
+      "definition": null,
+      "id": 150
+    },
+    {
+      "value": "Suspicaz",
+      "definition": null,
+      "id": 151
+    },
+    {
+      "value": "Malgeniado",
+      "definition": null,
+      "id": 152
+    },
+    {
+      "value": "Divagador",
+      "definition": null,
+      "id": 153
+    },
+    {
+      "value": "Vengativo",
+      "definition": null,
+      "id": 154
+    },
+    {
+      "value": "Inquieto",
+      "definition": null,
+      "id": 155
+    },
+    {
+      "value": "Reacio",
+      "definition": null,
+      "id": 156
+    },
+    {
+      "value": "Precipitado",
+      "definition": null,
+      "id": 157
+    },
+    {
+      "value": "Comprometido",
+      "definition": null,
+      "id": 158
+    },
+    {
+      "value": "Crítico",
+      "definition": null,
+      "id": 159
+    },
+    {
+      "value": "Astuto",
+      "definition": null,
+      "id": 160
+    },
+    {
+      "value": "Variable",
+      "definition": null,
+      "id": 161
+    },
+    {
+      "value": "Testarudo",
+      "definition": null,
+      "id": 162
+    },
+    {
+      "value": "Astuto",
+      "definition": null,
+      "id": 163
+    }
+  ],
+  "personalidades": [
+    {
+      "id": 1,
+      "value": "Colérico",
+      "definition": "Info extra del Colérico",
+      "color": "amarillo"
+    },
+    {
+      "id": 2,
+      "value": "Flemático",
+      "definition": "Info extra del Flemático",
+      "color": "azul"
+    },
+    {
+      "id": 3,
+      "value": "Melancólico",
+      "definition": "Info extra del Melancólico",
+      "color": "verde"
+    },
+    {
+      "id": 4,
+      "value": "Sanguíneo",
+      "definition": "Info extra del Sanguíneo",
+      "color": "rojo"
+    }
+  ],
+  "pregs-res": [
+    {
+      "id": 1,
+      "id_pregunta": 1,
+      "id_respuesta": 1,
+      "id_personalidad": 4
+    },
+    {
+      "id": 2,
+      "id_pregunta": 1,
+      "id_respuesta": 2,
+      "id_personalidad": 1
+    },
+    {
+      "id": 3,
+      "id_pregunta": 1,
+      "id_respuesta": 3,
+      "id_personalidad": 3
+    },
+    {
+      "id": 4,
+      "id_pregunta": 1,
+      "id_respuesta": 4,
+      "id_personalidad": 2
+    },
+    {
+      "id": 5,
+      "id_pregunta": 2,
+      "id_respuesta": 5,
+      "id_personalidad": 3
+    },
+    {
+      "id": 6,
+      "id_pregunta": 2,
+      "id_respuesta": 6,
+      "id_personalidad": 4
+    },
+    {
+      "id": 7,
+      "id_pregunta": 2,
+      "id_respuesta": 7,
+      "id_personalidad": 1
+    },
+    {
+      "id": 8,
+      "id_pregunta": 2,
+      "id_respuesta": 8,
+      "id_personalidad": 2
+    },
+    {
+      "id": 9,
+      "id_pregunta": 3,
+      "id_respuesta": 9,
+      "id_personalidad": 2
+    },
+    {
+      "id": 10,
+      "id_pregunta": 3,
+      "id_respuesta": 10,
+      "id_personalidad": 3
+    },
+    {
+      "id": 11,
+      "id_pregunta": 3,
+      "id_respuesta": 11,
+      "id_personalidad": 4
+    },
+    {
+      "id": 12,
+      "id_pregunta": 3,
+      "id_respuesta": 12,
+      "id_personalidad": 1
+    },
+    {
+      "id": 13,
+      "id_pregunta": 4,
+      "id_respuesta": 13,
+      "id_personalidad": 3
+    },
+    {
+      "id": 14,
+      "id_pregunta": 4,
+      "id_respuesta": 14,
+      "id_personalidad": 2
+    },
+    {
+      "id": 15,
+      "id_pregunta": 4,
+      "id_respuesta": 15,
+      "id_personalidad": 1
+    },
+    {
+      "id": 16,
+      "id_pregunta": 4,
+      "id_respuesta": 16,
+      "id_personalidad": 4
+    },
+    {
+      "id": 17,
+      "id_pregunta": 5,
+      "id_respuesta": 17,
+      "id_personalidad": 4
+    },
+    {
+      "id": 18,
+      "id_pregunta": 5,
+      "id_respuesta": 18,
+      "id_personalidad": 3
+    },
+    {
+      "id": 19,
+      "id_pregunta": 5,
+      "id_respuesta": 19,
+      "id_personalidad": 2
+    },
+    {
+      "id": 20,
+      "id_pregunta": 5,
+      "id_respuesta": 20,
+      "id_personalidad": 1
+    },
+    {
+      "id_pregunta": 6,
+      "id_personalidad": 2,
+      "id_respuesta": 21,
+      "id": 21
+    },
+    {
+      "id_pregunta": 6,
+      "id_personalidad": 3,
+      "id_respuesta": 22,
+      "id": 22
+    },
+    {
+      "id_pregunta": 6,
+      "id_personalidad": 1,
+      "id_respuesta": 23,
+      "id": 23
+    },
+    {
+      "id_pregunta": 6,
+      "id_personalidad": 4,
+      "id_respuesta": 24,
+      "id": 24
+    },
+    {
+      "id_pregunta": 7,
+      "id_personalidad": 3,
+      "id_respuesta": 25,
+      "id": 25
+    },
+    {
+      "id_pregunta": 7,
+      "id_personalidad": 2,
+      "id_respuesta": 26,
+      "id": 26
+    },
+    {
+      "id_pregunta": 7,
+      "id_personalidad": 1,
+      "id_respuesta": 27,
+      "id": 27
+    },
+    {
+      "id_pregunta": 7,
+      "id_personalidad": 4,
+      "id_respuesta": 28,
+      "id": 28
+    },
+    {
+      "id_pregunta": 8,
+      "id_personalidad": 1,
+      "id_respuesta": 29,
+      "id": 29
+    },
+    {
+      "id_pregunta": 8,
+      "id_personalidad": 4,
+      "id_respuesta": 30,
+      "id": 30
+    },
+    {
+      "id_pregunta": 8,
+      "id_personalidad": 3,
+      "id_respuesta": 31,
+      "id": 31
+    },
+    {
+      "id_pregunta": 8,
+      "id_personalidad": 2,
+      "id_respuesta": 32,
+      "id": 32
+    },
+    {
+      "id_pregunta": 9,
+      "id_personalidad": 3,
+      "id_respuesta": 33,
+      "id": 33
+    },
+    {
+      "id_pregunta": 9,
+      "id_personalidad": 2,
+      "id_respuesta": 34,
+      "id": 34
+    },
+    {
+      "id_pregunta": 9,
+      "id_personalidad": 1,
+      "id_respuesta": 35,
+      "id": 35
+    },
+    {
+      "id_pregunta": 9,
+      "id_personalidad": 4,
+      "id_respuesta": 36,
+      "id": 36
+    },
+    {
+      "id_pregunta": 10,
+      "id_personalidad": 2,
+      "id_respuesta": 37,
+      "id": 37
+    },
+    {
+      "id_pregunta": 10,
+      "id_personalidad": 3,
+      "id_respuesta": 38,
+      "id": 38
+    },
+    {
+      "id_pregunta": 10,
+      "id_personalidad": 4,
+      "id_respuesta": 39,
+      "id": 39
+    },
+    {
+      "id_pregunta": 10,
+      "id_personalidad": 1,
+      "id_respuesta": 40,
+      "id": 40
+    },
+    {
+      "id_pregunta": 11,
+      "id_personalidad": 1,
+      "id_respuesta": 41,
+      "id": 41
+    },
+    {
+      "id_pregunta": 11,
+      "id_personalidad": 4,
+      "id_respuesta": 42,
+      "id": 42
+    },
+    {
+      "id_pregunta": 11,
+      "id_personalidad": 2,
+      "id_respuesta": 43,
+      "id": 43
+    },
+    {
+      "id_pregunta": 11,
+      "id_personalidad": 3,
+      "id_respuesta": 44,
+      "id": 44
+    },
+    {
+      "id_pregunta": 12,
+      "id_personalidad": 4,
+      "id_respuesta": 45,
+      "id": 45
+    },
+    {
+      "id_pregunta": 12,
+      "id_personalidad": 2,
+      "id_respuesta": 46,
+      "id": 46
+    },
+    {
+      "id_pregunta": 12,
+      "id_personalidad": 3,
+      "id_respuesta": 47,
+      "id": 47
+    },
+    {
+      "id_pregunta": 12,
+      "id_personalidad": 1,
+      "id_respuesta": 48,
+      "id": 48
+    },
+    {
+      "id_pregunta": 13,
+      "id_personalidad": 3,
+      "id_respuesta": 49,
+      "id": 49
+    },
+    {
+      "id_pregunta": 13,
+      "id_personalidad": 1,
+      "id_respuesta": 50,
+      "id": 50
+    },
+    {
+      "id_pregunta": 13,
+      "id_personalidad": 2,
+      "id_respuesta": 51,
+      "id": 51
+    },
+    {
+      "id_pregunta": 13,
+      "id_personalidad": 4,
+      "id_respuesta": 52,
+      "id": 52
+    },
+    {
+      "id_pregunta": 14,
+      "id_personalidad": 4,
+      "id_respuesta": 53,
+      "id": 53
+    },
+    {
+      "id_pregunta": 14,
+      "id_personalidad": 1,
+      "id_respuesta": 54,
+      "id": 54
+    },
+    {
+      "id_pregunta": 14,
+      "id_personalidad": 2,
+      "id_respuesta": 55,
+      "id": 55
+    },
+    {
+      "id_pregunta": 14,
+      "id_personalidad": 3,
+      "id_respuesta": 56,
+      "id": 56
+    },
+    {
+      "id_pregunta": 15,
+      "id_personalidad": 2,
+      "id_respuesta": 57,
+      "id": 57
+    },
+    {
+      "id_pregunta": 15,
+      "id_personalidad": 3,
+      "id_respuesta": 58,
+      "id": 58
+    },
+    {
+      "id_pregunta": 15,
+      "id_personalidad": 1,
+      "id_respuesta": 59,
+      "id": 59
+    },
+    {
+      "id_pregunta": 15,
+      "id_personalidad": 4,
+      "id_respuesta": 60,
+      "id": 60
+    },
+    {
+      "id_pregunta": 16,
+      "id_personalidad": 3,
+      "id_respuesta": 61,
+      "id": 61
+    },
+    {
+      "id_pregunta": 16,
+      "id_personalidad": 1,
+      "id_respuesta": 62,
+      "id": 62
+    },
+    {
+      "id_pregunta": 16,
+      "id_personalidad": 4,
+      "id_respuesta": 63,
+      "id": 63
+    },
+    {
+      "id_pregunta": 16,
+      "id_personalidad": 2,
+      "id_respuesta": 64,
+      "id": 64
+    },
+    {
+      "id_pregunta": 17,
+      "id_personalidad": 2,
+      "id_respuesta": 65,
+      "id": 65
+    },
+    {
+      "id_pregunta": 17,
+      "id_personalidad": 3,
+      "id_respuesta": 66,
+      "id": 66
+    },
+    {
+      "id_pregunta": 17,
+      "id_personalidad": 1,
+      "id_respuesta": 67,
+      "id": 67
+    },
+    {
+      "id_pregunta": 17,
+      "id_personalidad": 4,
+      "id_respuesta": 68,
+      "id": 68
+    },
+    {
+      "id_pregunta": 18,
+      "id_personalidad": 2,
+      "id_respuesta": 69,
+      "id": 69
+    },
+    {
+      "id_pregunta": 18,
+      "id_personalidad": 1,
+      "id_respuesta": 70,
+      "id": 70
+    },
+    {
+      "id_pregunta": 18,
+      "id_personalidad": 3,
+      "id_respuesta": 71,
+      "id": 71
+    },
+    {
+      "id_pregunta": 18,
+      "id_personalidad": 4,
+      "id_respuesta": 72,
+      "id": 72
+    },
+    {
+      "id_pregunta": 19,
+      "id_personalidad": 3,
+      "id_respuesta": 73,
+      "id": 73
+    },
+    {
+      "id_pregunta": 19,
+      "id_personalidad": 2,
+      "id_respuesta": 74,
+      "id": 74
+    },
+    {
+      "id_pregunta": 19,
+      "id_personalidad": 1,
+      "id_respuesta": 75,
+      "id": 75
+    },
+    {
+      "id_pregunta": 19,
+      "id_personalidad": 4,
+      "id_respuesta": 76,
+      "id": 76
+    },
+    {
+      "id_pregunta": 20,
+      "id_personalidad": 4,
+      "id_respuesta": 77,
+      "id": 77
+    },
+    {
+      "id_pregunta": 20,
+      "id_personalidad": 1,
+      "id_respuesta": 78,
+      "id": 78
+    },
+    {
+      "id_pregunta": 20,
+      "id_personalidad": 3,
+      "id_respuesta": 79,
+      "id": 79
+    },
+    {
+      "id_pregunta": 20,
+      "id_personalidad": 2,
+      "id_respuesta": 80,
+      "id": 80
+    },
+    {
+      "id_pregunta": 21,
+      "id_personalidad": 4,
+      "id_respuesta": 81,
+      "id": 81
+    },
+    {
+      "id_pregunta": 21,
+      "id_personalidad": 1,
+      "id_respuesta": 82,
+      "id": 82
+    },
+    {
+      "id_pregunta": 21,
+      "id_personalidad": 3,
+      "id_respuesta": 83,
+      "id": 83
+    },
+    {
+      "id_pregunta": 21,
+      "id_personalidad": 2,
+      "id_respuesta": 84,
+      "id": 84
+    },
+    {
+      "id_pregunta": 22,
+      "id_personalidad": 4,
+      "id_respuesta": 85,
+      "id": 85
+    },
+    {
+      "id_pregunta": 22,
+      "id_personalidad": 1,
+      "id_respuesta": 86,
+      "id": 86
+    },
+    {
+      "id_pregunta": 22,
+      "id_personalidad": 3,
+      "id_respuesta": 87,
+      "id": 87
+    },
+    {
+      "id_pregunta": 22,
+      "id_personalidad": 2,
+      "id_respuesta": 88,
+      "id": 88
+    },
+    {
+      "id_pregunta": 23,
+      "id_personalidad": 2,
+      "id_respuesta": 89,
+      "id": 89
+    },
+    {
+      "id_pregunta": 23,
+      "id_personalidad": 3,
+      "id_respuesta": 90,
+      "id": 90
+    },
+    {
+      "id_pregunta": 23,
+      "id_personalidad": 1,
+      "id_respuesta": 91,
+      "id": 91
+    },
+    {
+      "id_pregunta": 23,
+      "id_personalidad": 4,
+      "id_respuesta": 92,
+      "id": 92
+    },
+    {
+      "id_pregunta": 24,
+      "id_personalidad": 3,
+      "id_respuesta": 93,
+      "id": 93
+    },
+    {
+      "id_pregunta": 24,
+      "id_personalidad": 2,
+      "id_respuesta": 94,
+      "id": 94
+    },
+    {
+      "id_pregunta": 24,
+      "id_personalidad": 4,
+      "id_respuesta": 95,
+      "id": 95
+    },
+    {
+      "id_pregunta": 24,
+      "id_personalidad": 1,
+      "id_respuesta": 96,
+      "id": 96
+    },
+    {
+      "id_pregunta": 25,
+      "id_personalidad": 1,
+      "id_respuesta": 97,
+      "id": 97
+    },
+    {
+      "id_pregunta": 25,
+      "id_personalidad": 3,
+      "id_respuesta": 98,
+      "id": 98
+    },
+    {
+      "id_pregunta": 25,
+      "id_personalidad": 2,
+      "id_respuesta": 99,
+      "id": 99
+    },
+    {
+      "id_pregunta": 25,
+      "id_personalidad": 4,
+      "id_respuesta": 100,
+      "id": 100
+    },
+    {
+      "id_pregunta": 26,
+      "id_personalidad": 2,
+      "id_respuesta": 101,
+      "id": 101
+    },
+    {
+      "id_pregunta": 26,
+      "id_personalidad": 3,
+      "id_respuesta": 102,
+      "id": 102
+    },
+    {
+      "id_pregunta": 26,
+      "id_personalidad": 4,
+      "id_respuesta": 103,
+      "id": 103
+    },
+    {
+      "id_pregunta": 26,
+      "id_personalidad": 1,
+      "id_respuesta": 104,
+      "id": 104
+    },
+    {
+      "id_pregunta": 27,
+      "id_personalidad": 1,
+      "id_respuesta": 105,
+      "id": 106
+    },
+    {
+      "id_pregunta": 27,
+      "id_personalidad": 4,
+      "id_respuesta": 113,
+      "id": 114
+    },
+    {
+      "id_pregunta": 27,
+      "id_personalidad": 3,
+      "id_respuesta": 107,
+      "id": 107
+    },
+    {
+      "id_pregunta": 27,
+      "id_personalidad": 2,
+      "id_respuesta": 108,
+      "id": 108
+    },
+    {
+      "id_pregunta": 28,
+      "id_personalidad": 2,
+      "id_respuesta": 109,
+      "id": 109
+    },
+    {
+      "id_pregunta": 28,
+      "id_personalidad": 3,
+      "id_respuesta": 110,
+      "id": 110
+    },
+    {
+      "id_pregunta": 28,
+      "id_personalidad": 1,
+      "id_respuesta": 111,
+      "id": 112
+    },
+    {
+      "id_pregunta": 28,
+      "id_personalidad": 4,
+      "id_respuesta": 112,
+      "id": 113
+    },
+    {
+      "id_pregunta": 29,
+      "id_personalidad": 4,
+      "id_respuesta": 114,
+      "id": 115
+    },
+    {
+      "id_pregunta": 29,
+      "id_personalidad": 3,
+      "id_respuesta": 115,
+      "id": 116
+    },
+    {
+      "id_pregunta": 29,
+      "id_personalidad": 1,
+      "id_respuesta": 116,
+      "id": 117
+    },
+    {
+      "id_pregunta": 29,
+      "id_personalidad": 2,
+      "id_respuesta": 117,
+      "id": 118
+    },
+    {
+      "id_pregunta": 30,
+      "id_personalidad": 4,
+      "id_respuesta": 118,
+      "id": 119
+    },
+    {
+      "id_pregunta": 30,
+      "id_personalidad": 3,
+      "id_respuesta": 119,
+      "id": 120
+    },
+    {
+      "id_pregunta": 30,
+      "id_personalidad": 1,
+      "id_respuesta": 120,
+      "id": 121
+    },
+    {
+      "id_pregunta": 30,
+      "id_personalidad": 2,
+      "id_respuesta": 121,
+      "id": 122
+    },
+    {
+      "id_pregunta": 31,
+      "id_personalidad": 2,
+      "id_respuesta": 122,
+      "id": 123
+    },
+    {
+      "id_pregunta": 31,
+      "id_personalidad": 3,
+      "id_respuesta": 123,
+      "id": 124
+    },
+    {
+      "id_pregunta": 31,
+      "id_personalidad": 1,
+      "id_respuesta": 124,
+      "id": 125
+    },
+    {
+      "id_pregunta": 31,
+      "id_personalidad": 4,
+      "id_respuesta": 125,
+      "id": 126
+    },
+    {
+      "id_pregunta": 32,
+      "id_personalidad": 3,
+      "id_respuesta": 126,
+      "id": 127
+    },
+    {
+      "id_pregunta": 32,
+      "id_personalidad": 1,
+      "id_respuesta": 127,
+      "id": 128
+    },
+    {
+      "id_pregunta": 32,
+      "id_personalidad": 2,
+      "id_respuesta": 128,
+      "id": 129
+    },
+    {
+      "id_pregunta": 32,
+      "id_personalidad": 4,
+      "id_respuesta": 129,
+      "id": 130
+    },
+    {
+      "id_pregunta": 33,
+      "id_personalidad": 2,
+      "id_respuesta": 130,
+      "id": 131
+    },
+    {
+      "id_pregunta": 33,
+      "id_personalidad": 4,
+      "id_respuesta": 131,
+      "id": 132
+    },
+    {
+      "id_pregunta": 33,
+      "id_personalidad": 1,
+      "id_respuesta": 132,
+      "id": 133
+    },
+    {
+      "id_pregunta": 33,
+      "id_personalidad": 3,
+      "id_respuesta": 133,
+      "id": 134
+    },
+    {
+      "id_pregunta": 34,
+      "id_personalidad": 4,
+      "id_respuesta": 134,
+      "id": 135
+    },
+    {
+      "id_pregunta": 34,
+      "id_personalidad": 3,
+      "id_respuesta": 135,
+      "id": 136
+    },
+    {
+      "id_pregunta": 34,
+      "id_personalidad": 1,
+      "id_respuesta": 136,
+      "id": 137
+    },
+    {
+      "id_pregunta": 34,
+      "id_personalidad": 2,
+      "id_respuesta": 137,
+      "id": 138
+    },
+    {
+      "id_pregunta": 35,
+      "id_personalidad": 4,
+      "id_respuesta": 138,
+      "id": 139
+    },
+    {
+      "id_pregunta": 35,
+      "id_personalidad": 3,
+      "id_respuesta": 139,
+      "id": 140
+    },
+    {
+      "id_pregunta": 35,
+      "id_personalidad": 2,
+      "id_respuesta": 140,
+      "id": 141
+    },
+    {
+      "id_pregunta": 35,
+      "id_personalidad": 1,
+      "id_respuesta": 141,
+      "id": 142
+    },
+    {
+      "id_pregunta": 36,
+      "id_personalidad": 2,
+      "id_respuesta": 142,
+      "id": 143
+    },
+    {
+      "id_pregunta": 36,
+      "id_personalidad": 4,
+      "id_respuesta": 144,
+      "id": 144
+    },
+    {
+      "id_pregunta": 36,
+      "id_personalidad": 3,
+      "id_respuesta": 145,
+      "id": 145
+    },
+    {
+      "id_pregunta": 37,
+      "id_personalidad": 3,
+      "id_respuesta": 146,
+      "id": 146
+    },
+    {
+      "id_pregunta": 37,
+      "id_personalidad": 1,
+      "id_respuesta": 147,
+      "id": 147
+    },
+    {
+      "id_pregunta": 37,
+      "id_personalidad": 2,
+      "id_respuesta": 148,
+      "id": 148
+    },
+    {
+      "id_pregunta": 37,
+      "id_personalidad": 4,
+      "id_respuesta": 149,
+      "id": 149
+    },
+    {
+      "id_pregunta": 38,
+      "id_personalidad": 2,
+      "id_respuesta": 150,
+      "id": 150
+    },
+    {
+      "id_pregunta": 38,
+      "id_personalidad": 3,
+      "id_respuesta": 151,
+      "id": 151
+    },
+    {
+      "id_pregunta": 38,
+      "id_personalidad": 1,
+      "id_respuesta": 152,
+      "id": 152
+    },
+    {
+      "id_pregunta": 38,
+      "id_personalidad": 4,
+      "id_respuesta": 153,
+      "id": 153
+    },
+    {
+      "id_pregunta": 39,
+      "id_personalidad": 3,
+      "id_respuesta": 154,
+      "id": 154
+    },
+    {
+      "id_pregunta": 39,
+      "id_personalidad": 4,
+      "id_respuesta": 155,
+      "id": 155
+    },
+    {
+      "id_pregunta": 39,
+      "id_personalidad": 2,
+      "id_respuesta": 156,
+      "id": 156
+    },
+    {
+      "id_pregunta": 39,
+      "id_personalidad": 1,
+      "id_respuesta": 157,
+      "id": 157
+    },
+    {
+      "id_pregunta": 40,
+      "id_personalidad": 3,
+      "id_respuesta": 158,
+      "id": 158
+    },
+    {
+      "id_pregunta": 40,
+      "id_personalidad": 2,
+      "id_respuesta": 159,
+      "id": 159
+    },
+    {
+      "id_pregunta": 40,
+      "id_personalidad": 4,
+      "id_respuesta": 161,
+      "id": 160
+    },
+    {
+      "id_pregunta": 36,
+      "id_personalidad": 1,
+      "id_respuesta": 162,
+      "id": 161
+    },
+    {
+      "id_pregunta": 40,
+      "id_personalidad": 1,
+      "id_respuesta": 163,
+      "id": 162
+    }
+  ]
+}

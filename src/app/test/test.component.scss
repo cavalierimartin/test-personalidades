@@ -1,0 +1,30 @@
+.question-container {
+  border: 1px solid white;
+  border-radius: 14px;
+  padding: 6px 12px;
+  > div {
+    margin: auto;
+  }
+}
+
+.auto-vertical {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.description-search {
+  margin-left: 2px;
+}
+
+.canvas-chart-container {
+  display: block;
+  h4 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #testResultsModal .modal-dialog {
+    max-width: 760px;
+  }
+}

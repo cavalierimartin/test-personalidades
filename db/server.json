@@ -1,0 +1,2158 @@
+{
+  "rrss": [
+    {
+      "email": {
+        "label": "E-mail",
+        "logo": "fa fa-at",
+        "shareUrl": "mailto:{to}?subject={text}&body={url}",
+        "countUrl": "",
+        "shareIn": "self"
+      },
+      "twitter": {
+        "label": "Tweet",
+        "logo": "fa fa-twitter",
+        "shareUrl": "https://twitter.com/share?url={url}&text={text}&via={via}&hashtags={hashtags}",
+        "countUrl": ""
+      },
+      "facebook": {
+        "label": "Like",
+        "logo": "fa fa-facebook",
+        "shareUrl": "https://facebook.com/sharer/sharer.php?u={url}",
+        "countUrl": "https://graph.facebook.com/?id={url}",
+        "getCount": "function(a){return a.share&&a.share.share_count||0}"
+      },
+      "vkontakte": {
+        "label": "Like",
+        "logo": "fa fa-vk",
+        "shareUrl": "https://vk.com/share.php?url={url}&title={title}&description={text}",
+        "countUrl": "https://vk.com/share.php?act=count&index=1&url={url}",
+        "getCount": "function(a){return parseInt(a.slice(15,-2).split(', ')[1])}"
+      },
+      "googleplus": {
+        "label": "+1",
+        "logo": "fa fa-google",
+        "shareUrl": "https://plus.google.com/share?url={url}",
+        "countUrl": ""
+      },
+      "linkedin": {
+        "label": "Share",
+        "logo": "fa fa-linkedin",
+        "shareUrl": "https://www.linkedin.com/shareArticle?mini=true&url={url}",
+        "countUrl": "https://www.linkedin.com/countserv/count/share?format=jsonp&url={url}&callback=?",
+        "getCount": "function(a){return a.count}"
+      },
+      "pinterest": {
+        "label": "Pin it",
+        "logo": "fa fa-pinterest",
+        "shareUrl": "https://pinterest.com/pin/create/bookmarklet/?media={media}&url={url}&description={text}",
+        "countUrl": "https://api.pinterest.com/v1/urls/count.json?&url={url}&callback=?",
+        "getCount": "function(a){return a.count}"
+      },
+      "stumbleupon": {
+        "label": "Share",
+        "logo": "fa fa-stumbleupon",
+        "shareUrl": "http://www.stumbleupon.com/submit?url={url}&title={title}",
+        "countUrl": "https://cors-anywhere.herokuapp.com/https://www.stumbleupon.com/services/1.01/badge.getinfo?url={url}",
+        "getCount": "function(a){return a.result.views}"
+      },
+      "telegram": {
+        "label": "Telegram",
+        "logo": "fa fa-paper-plane",
+        "shareUrl": "tg://msg?text={url} {text}",
+        "countUrl": "",
+        "shareIn": "self"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "logo": "fa fa-whatsapp",
+        "shareUrl": "whatsapp://send?text={url} {text}",
+        "countUrl": "",
+        "shareIn": "self"
+      },
+      "line": {
+        "label": "LINE",
+        "logo": "fa fa-comment",
+        "shareUrl": "http://line.me/R/msg/text/?{text} {url}",
+        "countUrl": ""
+      },
+      "viber": {
+        "label": "Viber",
+        "logo": "fa fa-volume-control-phone",
+        "shareUrl": "viber://forward?text={url} {text}",
+        "countUrl": "",
+        "shareIn": "self"
+      },
+      "pocket": {
+        "label": "Pocket",
+        "logo": "fa fa-get-pocket",
+        "shareUrl": "https://getpocket.com/save?url={url}&title={title}",
+        "countUrl": ""
+      },
+      "messenger": {
+        "label": "Share",
+        "logo": "fa fa-commenting",
+        "shareUrl": "fb-messenger://share?link={url}",
+        "countUrl": "",
+        "shareIn": "self"
+      }
+    }
+  ],
+  "instrucciones": [
+    {
+      "id": 1,
+      "es": "Para cada recuadro, elija la palabra que más se aplica a usted"
+    }
+  ],
+  "respuestas": [
+    {
+      "id": 1,
+      "value": "Animado",
+      "definition": "Que tiene el ánimo alegre o es de carácter alegre"
+    },
+    {
+      "id": 2,
+      "value": "Aventurero",
+      "definition": "Que ama o que busca la aventura"
+    },
+    {
+      "id": 3,
+      "value": "Analítico",
+      "definition": "Persona reservada, tranquila. Le gusta llegar al fondo de las cosas"
+    },
+    {
+      "id": 4,
+      "value": "Adaptable",
+      "definition": "Que se adapta con facilidad a algo"
+    },
+    {
+      "id": 5,
+      "value": "Persistente",
+      "definition": "Persona que se fija una meta u objetivo y continúa luchando por alcanzarla a pesar de cualquier circunstancia adversa que pudiera presentarse en su camino"
+    },
+    {
+      "id": 6,
+      "value": "Juguetón",
+      "definition": "Que juguetea, juega con frecuencia o es aficionado a juguetear"
+    },
+    {
+      "id": 7,
+      "value": "Persuasivo",
+      "definition": "Que tiene fuerza y eficacia para convencer"
+    },
+    {
+      "id": 8,
+      "value": "Plácido",
+      "definition": "Persona dócil, afable, pacífica y de trato agradable. Es aquel que no suele discutir con otros sujetos y que, por lo general, se muestra tranquilo y de buen humor"
+    },
+    {
+      "id": 9,
+      "value": "Sumiso",
+      "definition": "Que se somete y se deja dominar por la fuerza de las circunstancias o por otras personas aceptando, sin cuestionarlos, su autoridad y su voluntad"
+    },
+    {
+      "id": 10,
+      "value": "Abnegado",
+      "definition": "Hacer algo difícil o que no gusta o renunciar a una cosa por beneficiar a alguien o por obtener algo"
+    },
+    {
+      "id": 11,
+      "value": "Sociable",
+      "definition": "Que tiene facilidad para entablar relaciones sociales y le gusta relacionarse con otras personas"
+    },
+    {
+      "id": 12,
+      "value": "Decidido",
+      "definition": "Que actúa con decisión y seguridad"
+    },
+    {
+      "id": 13,
+      "value": "Considerado",
+      "definition": "Que obra con reflexión. Que atiende y respeta a los demás, o que es atendido y respetado"
+    },
+    {
+      "id": 14,
+      "value": "Controlado",
+      "definition": "Capacidad consciente de regular los impulsos de manera voluntaria"
+    },
+    {
+      "id": 15,
+      "value": "Competitivo",
+      "definition": "Que es capaz de competir con otros que aspiran a un mismo objetivo o a la superioridad en algo"
+    },
+    {
+      "id": 16,
+      "value": "Convincente",
+      "definition": "Persona que convence"
+    },
+    {
+      "id": 17,
+      "value": "Entusiasta",
+      "definition": "Que siente entusiasmo por algo o por alguien o que se entusiasma con facilidad"
+    },
+    {
+      "id": 18,
+      "value": "Respetuoso",
+      "definition": "Que se comporta con respeto ante alguien o algo"
+    },
+    {
+      "id": 19,
+      "value": "Reservado",
+      "definition": "Que se muestra inclinado a no manifestar sus ideas, pensamientos o sentimientos"
+    },
+    {
+      "id": 20,
+      "value": "Inventivo",
+      "definition": "Que tiene capacidad para imaginar o inventar cosas combinando con inteligencia y habilidad los conocimientos que posee y los medios de que dispone"
+    },
+    {
+      "value": "Contento",
+      "definition": "Que siente satisfacción por un comportamiento bueno o una obra bien hecha. Que está satisfecho o conforme con lo que tiene u obtiene",
+      "id": 21
+    },
+    {
+      "value": "Sensible",
+      "definition": "Que es capaz de emocionarse ante la belleza y los valores estéticos o ante sentimientos como el amor, la ternura o la compasión",
+      "id": 22
+    },
+    {
+      "value": "Autosuficiente",
+      "definition": "Persona que se basta a sí mismo, que no necesita de los demás para satisfacer sus propias necesidades",
+      "id": 23
+    },
+    {
+      "value": "Enérgico",
+      "definition": "Que obra con energía o vigor",
+      "id": 24
+    },
+    {
+      "value": "Planificador",
+      "definition": "Que se encarga de planificar",
+      "id": 25
+    },
+    {
+      "value": "Paciente",
+      "definition": "Que tiene paciencia",
+      "id": 26
+    },
+    {
+      "value": "Positivo",
+      "definition": "Persona optimista y siempre intenta mirar el lado bueno de las cosas",
+      "id": 27
+    },
+    {
+      "value": "Activista",
+      "definition": "Que participa activamente en la propaganda del partido o sociedad a que pertenece o practica la acción directa en la lucha por los cambios sociales o políticos que pretende",
+      "id": 28
+    },
+    {
+      "value": "Seguro",
+      "definition": "Las personas seguras de sí mismas no juzgan a otras porque saben que todos tienen algo bueno que ofrecer y no necesitan rebajar a alguien para sentirse bien consigo mismas. Saben qué tan limitante es compararse con otra persona y lo cansado que puede ser pasar el tiempo preguntándose si uno es lo suficientemente bueno",
+      "id": 29
+    },
+    {
+      "value": "Espontáneo",
+      "definition": "La espontaneidad es la habilidad de ser natural y sincero en la forma de pensar y actuar",
+      "id": 30
+    },
+    {
+      "value": "Puntual",
+      "definition": "Que hace las cosas en el tiempo o plazo debido o convenido, sin retraso, en especial si llega a un lugar exactamente a la hora debida o convenida",
+      "id": 31
+    },
+    {
+      "value": "Tímido",
+      "definition": "Se aplica a la persona a la que le resulta difícil relacionarse con la gente o realizar algún tipo de actividad en público",
+      "id": 32
+    },
+    {
+      "value": "Ordenado",
+      "definition": "Que guarda orden y método en sus acciones y en sus cosa",
+      "id": 33
+    },
+    {
+      "value": "Atento",
+      "definition": "Que tiene atenciones o se comporta con amabilidad y cortesía",
+      "id": 34
+    },
+    {
+      "value": "Abierto",
+      "definition": "Una persona abierta es franca y receptiva, y no juzga apresuradamente a los otros, sino que acepta las diferencias ideológicas y culturales, e incluso es capaz de cambiar de parecer y aprender de los demás",
+      "id": 35
+    },
+    {
+      "value": "Optimista",
+      "definition": "Que tiende a ver y juzgar las cosas en su aspecto más positivo o más favorable",
+      "id": 36
+    },
+    {
+      "value": "Amigable",
+      "definition": "Que se comporta dando muestras de amabilidad y cortesía",
+      "id": 37
+    },
+    {
+      "value": "Fiel",
+      "definition": "Que es firme y constante en sus afectos, ideas y obligaciones y cumple con sus compromisos hacia alguien o algo",
+      "id": 38
+    },
+    {
+      "value": "Chistoso",
+      "definition": "Que cuenta chistes o tiene gracia al explicar algo y hace reír con sus comentarios",
+      "id": 39
+    },
+    {
+      "value": "Dominante",
+      "definition": "Que tiene tendencia a mandar y a dirigir la vida de las personas que lo rodean",
+      "id": 40
+    },
+    {
+      "value": "Osado",
+      "definition": "Que se atreve a afrontar situaciones difíciles o peligrosas con valentía y entereza",
+      "id": 41
+    },
+    {
+      "value": "Encantador",
+      "definition": "Que es muy agradable y causa una grata impresión porque tiene muchos encantos o atractivos",
+      "id": 42
+    },
+    {
+      "value": "Diplomático",
+      "definition": "Que tiene un trato muy correcto y educado y dice las cosas de forma que no molesten",
+      "id": 43
+    },
+    {
+      "value": "Detallista",
+      "definition": "Que cuida mucho los detalles",
+      "id": 44
+    },
+    {
+      "value": "Alegre",
+      "definition": "Que es propenso a sentir y mostrar alegría",
+      "id": 45
+    },
+    {
+      "value": "Constante",
+      "definition": "Que tiene constancia o voluntad firme y continuada en la determinación de hacer una cosa o en el modo de realizarla",
+      "id": 46
+    },
+    {
+      "value": "Culto",
+      "definition": "Que tiene cultura. Alguien que posee muchos conocimientos",
+      "id": 47
+    },
+    {
+      "value": "Confiado",
+      "definition": "Que tiende a confiar en la gente o en lo que le dicen",
+      "id": 48
+    },
+    {
+      "value": "Idealista",
+      "definition": "Que tiene una concepción del mundo y de la vida dominada por el idealismo, o que actúa conforme a él",
+      "id": 49
+    },
+    {
+      "value": "Independiente",
+      "definition": "Es alguien o algo que es autónomo y, por lo tanto, que actúa voluntariamente. Un individuo es independiente cuando su actuación está guiada por él mismo. Es alguien que toma sus propias decisiones, pues tiene la última palabra a la hora de elegir",
+      "id": 50
+    },
+    {
+      "value": "Inofensivo",
+      "definition": "Que no puede causar daño ni molestia",
+      "id": 51
+    },
+    {
+      "value": "Inspirador",
+      "definition": "Una persona que causa un sentimiento o impresión en el ánimo de otra persona",
+      "id": 52
+    },
+    {
+      "value": "Cálido",
+      "definition": "Las personas cálidas son aquellas que suelen ser muy queridas, amables con el otro y carismáticas",
+      "id": 53
+    },
+    {
+      "value": "Decisivo",
+      "definition": "Persona que resuelve, determina, decide, dispone, dictamina o decreta",
+      "id": 54
+    },
+    {
+      "value": "Humor Seco",
+      "definition": "humor en que este es presentado sin variación de emociones o lenguaje corporal. La persona generalmente habla con una voz informal, monótona o muy seria o también solemne y natural, y expresando una tranquilidad imperturbable. Puede expresarse de manera distraída o ingenua, sin darse cuenta de la situación cómica, o bien con insinceridad, disimulando que el humor que expresa es intencional",
+      "id": 55
+    },
+    {
+      "value": "Introspectivo",
+      "definition": "Que observa o analiza los propios pensamientos o sentimientos",
+      "id": 56
+    },
+    {
+      "value": "Conciliador",
+      "definition": "La definición de conciliador el que concilia, pacta, acuerda, pacifica, media, arregla, armoniza, concierta y reconcilia entre partes así mismo que es simpatizante, propenso o partidario a conciliar o de concordar las indiferencias o resolución de los conflictos",
+      "id": 57
+    },
+    {
+      "value": "Músico",
+      "definition": "La capacidad para captar sonidos e imitarlos, tener sensibilidad al ritmo, discriminar las cualidades de los sonidos, escuchar, cantar e interpretar canciones y obras, así como una predisposición a tocar instrumentos",
+      "id": 58
+    },
+    {
+      "value": "Instigador",
+      "definition": "Es quien influye en otra persona para que realice algún acto o para que piense de una determinada manera, especialmente relacionada con actos ilícitos",
+      "id": 59
+    },
+    {
+      "value": "Cordial",
+      "definition": "Que es afectuoso, amable y sincero",
+      "id": 60
+    },
+    {
+      "value": "Considerado",
+      "definition": "Que obra con reflexión. Que atiende y respeta a los demás, o que es atendido y respetado",
+      "id": 61
+    },
+    {
+      "value": "Tenaz",
+      "definition": "Que pone mucho empeño y no desiste en algo que quiere hacer o conseguir",
+      "id": 62
+    },
+    {
+      "value": "Hablador",
+      "definition": "Que habla mucho o habla demasiado",
+      "id": 63
+    },
+    {
+      "value": "Tolerante",
+      "definition": "Que respeta las opiniones, ideas o actitudes de las demás personas aunque no coincidan con las propias",
+      "id": 64
+    },
+    {
+      "value": "Escucha",
+      "definition": "Es quien escucha a otra persona con atención, concentración y respeto",
+      "id": 65
+    },
+    {
+      "value": "Leal",
+      "definition": "Que es incapaz de traicionar o engañar, actúa con respeto y fidelidad a sus principios morales, a sus compromisos o hacia la persona que lo ayuda, protege o mantiene",
+      "id": 66
+    },
+    {
+      "value": "Líder",
+      "definition": "Persona que encabeza y dirige un grupo o movimiento social, político, religioso, etc. El líder tiene la facultad de influir en otros sujetos. Su conducta o sus palabras logran incentivar a los miembros de un grupo para que trabajen en conjunto por un objetivo común",
+      "id": 67
+    },
+    {
+      "value": "Vivaz",
+      "definition": "Que muestra entusiasmo, pasión y gran animación",
+      "id": 68
+    },
+    {
+      "value": "Contento",
+      "definition": "Que está alegre, feliz y satisfecho",
+      "id": 69
+    },
+    {
+      "value": "Jefe",
+      "definition": "Persona que tiene autoridad o poder sobre un grupo para dirigir su trabajo o sus actividades",
+      "id": 70
+    },
+    {
+      "value": "Organizado",
+      "definition": "Que planifica y desarrolla sus actividades con orden y método",
+      "id": 71
+    },
+    {
+      "value": "Listo",
+      "definition": "Que tiene facilidad para aprender, comprender y darse cuenta de las cosas",
+      "id": 72
+    },
+    {
+      "value": "Perfeccionista",
+      "definition": "Que tiende a buscar la perfección en lo que hace, de manera que tiende a mejorarlo indefinidamente sin decidirse a considerarlo nunca acabado",
+      "id": 73
+    },
+    {
+      "value": "Permisivo",
+      "definition": "Que permite o consiente, no ofrece resistencia a lo que se considera perjudicial",
+      "id": 74
+    },
+    {
+      "value": "Productivo",
+      "definition": "Que produce. Que puede producir, fructífero",
+      "id": 75
+    },
+    {
+      "value": "Popular",
+      "definition": "Es alguien admirado y aceptado dentro de un determinado círculo o grupo",
+      "id": 76
+    },
+    {
+      "value": "Jovial",
+      "definition": "Es alguien que tiene alegría en el comportamiento, se encuentra normalmente de buen humor, con optimismo y con una actitud vital",
+      "id": 77
+    },
+    {
+      "value": "Atrevido",
+      "definition": "Que no siente miedo o temor al realizar acciones que comportan riesgo",
+      "id": 78
+    },
+    {
+      "value": "Se comporta bien",
+      "definition": "Que se comporta con comedimiento, mesura, moderado, sin ser agresivo ni irrespetuoso; que es cortés",
+      "id": 79
+    },
+    {
+      "value": "Equilibrado",
+      "definition": "Es una persona estable emocional y psíquicamente",
+      "id": 80
+    },
+    {
+      "value": "Estridente",
+      "definition": "Que resulta fastidioso o poco confiable por su conducta agresiva, sus gestos exagerados o sus dichos escandalosos y polémicos",
+      "id": 81
+    },
+    {
+      "value": "Mandón",
+      "definition": "Que tiene una tendencia exagerada a dar órdenes",
+      "id": 82
+    },
+    {
+      "value": "Apocado",
+      "definition": "Que se comporta con timidez, vergüenza o excesiva humildad",
+      "id": 83
+    },
+    {
+      "value": "Soso",
+      "definition": "Que no tiene viveza, energía, ni gracia",
+      "id": 84
+    },
+    {
+      "value": "Indisciplinado",
+      "definition": "Incapacidad del individuo para dominar sus impulsos y adecuarse al conjunto de normas y preceptos necesarios para la integración social o laboral",
+      "id": 85
+    },
+    {
+      "value": "Antipático",
+      "definition": "Persona que demuestra falta de simpatía y rechazo hacia algo o alguien. Generalmente la persona antipática tiende al pesimismo, no se relaciona de buena manera con los demás y no muestra expresiones de alegría",
+      "id": 86
+    },
+    {
+      "value": "Sin Entusiasmo",
+      "definition": "Falta o pérdida de motivación",
+      "id": 87
+    },
+    {
+      "value": "Implacable",
+      "definition": "Que no puede ser aplacado, contenido o suavizado",
+      "id": 88
+    },
+    {
+      "value": "Reticente",
+      "definition": "Que actúa con reticencia, desconfianza o cautela",
+      "id": 89
+    },
+    {
+      "value": "Resentido",
+      "definition": "Que se siente maltratado por la sociedad, por la suerte o por la vida en general y muestra una actitud de constante enfado hacia los demás",
+      "id": 90
+    },
+    {
+      "value": "Resistente",
+      "definition": "Persona de gran compromiso, control y orientado al reto",
+      "id": 91
+    },
+    {
+      "value": "Repetidor",
+      "definition": "Que se repite",
+      "id": 92
+    },
+    {
+      "value": "Exigente",
+      "definition": "Que exige mucho, especialmente si lo hace de forma rigurosa",
+      "id": 93
+    },
+    {
+      "value": "Temeroso",
+      "definition": "Que siente temor de recibir un daño",
+      "id": 94
+    },
+    {
+      "value": "Olvidadizo",
+      "definition": "Que se olvida de las cosas con facilidad",
+      "id": 95
+    },
+    {
+      "value": "Franco",
+      "definition": "Que es sincero y habla con claridad, sin tapujos",
+      "id": 96
+    },
+    {
+      "value": "Impaciente",
+      "definition": "Que se encuentra con grandes deseos de que suceda algo, de saber algo o de que se resuelva algo que espera",
+      "id": 97
+    },
+    {
+      "value": "Inseguro",
+      "definition": "Que tiene poca o ninguna seguridad en sí mismo",
+      "id": 98
+    },
+    {
+      "value": "Indeciso",
+      "definition": "Que carece de firmeza o seguridad. Dudoso",
+      "id": 99
+    },
+    {
+      "value": "Interrumpe",
+      "definition": "Persona que impide a alguien que continúe lo que estaba haciendo",
+      "id": 100
+    },
+    {
+      "value": "Impopular",
+      "definition": "Que no gusta a la población o a la mayoría de gente",
+      "id": 101
+    },
+    {
+      "value": "No Comprometido",
+      "definition": "Que no asume un compromiso de carácter ético en lo político o lo social",
+      "id": 102
+    },
+    {
+      "value": "Imprevisible",
+      "definition": "Persona que actúa al azar, que tiene un carácter aleatorio, que actua indiscriminadamente",
+      "id": 103
+    },
+    {
+      "value": "Frío",
+      "definition": "Que se comporta con tal serenidad y tranquilidad que ante un suceso impresionante o imprevisto reacciona sin inmutarse o sin expresar la más mínima emoción",
+      "id": 104
+    },
+    {
+      "value": "Terco",
+      "definition": "Que se mantiene firme o inamovible en su actitud, aunque se le den razones en contra o se le intente convencer para hacer otra cosa",
+      "id": 105
+    },
+    {
+      "value": "Descuidado",
+      "definition": "Que no pone el interés, atención y cuidado debidos en lo que hace o en lo que está a su cargo o bajo su responsabilidad",
+      "id": 106
+    },
+    {
+      "value": "Difícil contentar",
+      "definition": "Persona exigente por pedir demasiado, usualmente de forma caprichosa o despótica",
+      "id": 107
+    },
+    {
+      "value": "Tolerante",
+      "definition": "Que respeta las opiniones, ideas o actitudes de las demás personas aunque no coincidan con las propias",
+      "id": 108
+    },
+    {
+      "value": "Insípido",
+      "definition": "Que es soso y no tiene gracia o interés",
+      "id": 109
+    },
+    {
+      "value": "Pesimista",
+      "definition": "Que tiende a ver y a juzgar las cosas en su aspecto más negativo o desfavorable",
+      "id": 110
+    },
+    {
+      "value": "Orgulloso",
+      "definition": "Actitud de superioridad hacia los demás",
+      "id": 111
+    },
+    {
+      "value": "Vacilante",
+      "definition": "Persona que es indecisa o insegura",
+      "id": 112
+    },
+    {
+      "value": "Descuidado",
+      "definition": "Que no pone el interés, atención y cuidado debidos en lo que hace o en lo que está a su cargo o bajo su responsabilidad",
+      "id": 113
+    },
+    {
+      "value": "Iracundo",
+      "definition": "Que muestra ira o es propenso a ella",
+      "id": 114
+    },
+    {
+      "value": "Sin Motivación",
+      "definition": "Persona desanimada a actuar o realizar algo",
+      "id": 115
+    },
+    {
+      "value": "Argumentador",
+      "definition": "Persona que argumenta, razona, analiza, manifiesta, deduce, contradice, impugna, contradice, demuestra, declara y discute de manera falsa o verdadera de una proposición",
+      "id": 116
+    },
+    {
+      "value": "Taciturno",
+      "definition": "Que es habitualmente callado o silencioso",
+      "id": 117
+    },
+    {
+      "value": "Ingenuo",
+      "definition": "Que es sincero, candoroso y sin doblez y actúa sin tener en cuenta la posible maldad de una persona o la complejidad de una situación",
+      "id": 118
+    },
+    {
+      "value": "Negativo",
+      "definition": "Persona que es pesimista y tiende a observar solo lo problemático",
+      "id": 119
+    },
+    {
+      "value": "Nervioso",
+      "definition": "Que sus nervios se excitan fácilmente",
+      "id": 120
+    },
+    {
+      "value": "Desprendido",
+      "definition": "Que es generoso y no tiene interés por obtener provecho personal de algo o alguien",
+      "id": 121
+    },
+    {
+      "value": "Ansioso",
+      "definition": "Que tiene ansia o deseo vehemente de alguna cosa",
+      "id": 122
+    },
+    {
+      "value": "Abstraído",
+      "definition": "Que dirige toda su atención a una actividad o pensamiento, aislándose de lo que lo rodea",
+      "id": 123
+    },
+    {
+      "value": "Adicto al Trabajo",
+      "definition": "Persona con una necesidad excesiva e incontrolable de trabajar de forma constante",
+      "id": 124
+    },
+    {
+      "value": "Egocéntrico",
+      "definition": "Personas que creen que sus propias opiniones e intereses son más importantes que las de los demás",
+      "id": 125
+    },
+    {
+      "value": "Susceptible",
+      "definition": "Que se ofende o toma a mal las cosas con facilidad",
+      "id": 126
+    },
+    {
+      "value": "Indiscreto",
+      "definition": "Que habla o actúa imprudente e inoportunamente",
+      "id": 127
+    },
+    {
+      "value": "Tímido",
+      "definition": "Se aplica a la persona a la que le resulta difícil relacionarse con la gente o realizar algún tipo de actividad en público",
+      "id": 128
+    },
+    {
+      "value": "Hablador",
+      "definition": "Que habla mucho o habla demasiado",
+      "id": 129
+    },
+    {
+      "value": "Dudoso",
+      "definition": "Que siente duda, que está indeciso, que desconfía, que es incrédulo o no cree en su veracidad",
+      "id": 130
+    },
+    {
+      "value": "Desorganizado",
+      "definition": "Persona desordenada",
+      "id": 131
+    },
+    {
+      "value": "Dominante",
+      "definition": "Que tiene tendencia a mandar y a dirigir la vida de las personas que lo rodean",
+      "id": 132
+    },
+    {
+      "value": "Deprimido",
+      "definition": "Que padece una depresión o decaimiento del ánimo",
+      "id": 133
+    },
+    {
+      "value": "Inconsistente",
+      "definition": "Que carece de coherencia de solidez o estabilidad",
+      "id": 134
+    },
+    {
+      "value": "Introvertido",
+      "definition": "Que tiende a encerrarse en sí mismo y tiene dificultades para manifestar espontáneamente sus sentimientos y pensamientos",
+      "id": 135
+    },
+    {
+      "value": "Intolerante",
+      "definition": "Capacidad o habilidad que posee una persona de no soportar las opiniones diferentes a las de él",
+      "id": 136
+    },
+    {
+      "value": "Indiferente",
+      "definition": "Que no muestra una actitud positiva ni negativa hacia determinada cosa o persona, o que no la muestra hacia nada ni nadie",
+      "id": 137
+    },
+    {
+      "value": "Desordenado",
+      "definition": "Que procede con desorden",
+      "id": 138
+    },
+    {
+      "value": "Moroso",
+      "definition": "Que se retrasa en el pago de una deuda o en la devolución de una cosa",
+      "id": 139
+    },
+    {
+      "value": "Quejumbroso",
+      "definition": "Que se queja con frecuencia, especialmente si lo hace por costumbre o sin una causa importante",
+      "id": 140
+    },
+    {
+      "value": "Manipulador",
+      "definition": "Es aquella persona que intenta recrear todo a su alrededor a su gusto y semejanza",
+      "id": 141
+    },
+    {
+      "value": "Lento",
+      "definition": "Persona que necesita mucho tiempo para realizar una acción",
+      "id": 142
+    },
+    {
+      "value": "Ostentoso",
+      "definition": "Que muestra un lujo y riqueza excesivos",
+      "id": 144
+    },
+    {
+      "value": "Escéptico",
+      "definition": "Que duda o desconfía de la verdad, eficacia o posibilidades de algo, especialmente de las creencias comúnmente admitidas",
+      "id": 145
+    },
+    {
+      "value": "Solitario",
+      "definition": "Personas que disfrutan de pasar tiempo a solas",
+      "id": 146
+    },
+    {
+      "value": "Prepotente",
+      "definition": "Persona que se siente poderosa o influyente. Generalmente, impone su poder o autoridad para obtener un provecho o beneficio",
+      "id": 147
+    },
+    {
+      "value": "Perezoso",
+      "definition": "Que tiene poca disposición para hacer algo que requiere esfuerzo o constituye una obligación, especialmente trabajar",
+      "id": 148
+    },
+    {
+      "value": "Emocional",
+      "definition": "Que sufre constantes o frecuentes alteraciones del carácter, el humor o la tranquilidad",
+      "id": 149
+    },
+    {
+      "value": "Sin Ambición",
+      "definition": "Persona que no tiene deseo intenso y vehemente de conseguir una cosa difícil de lograr, especialmente riqueza, poder o fama",
+      "id": 150
+    },
+    {
+      "value": "Suspicaz",
+      "definition": "Que es propenso a sospechar o ver mala intención en lo que dicen o hacen los demás",
+      "id": 151
+    },
+    {
+      "value": "Malgeniado",
+      "definition": "De mal genio, corajudo, irritable, de mal humor, infeliz, intolerante",
+      "id": 152
+    },
+    {
+      "value": "Atolondrado",
+      "definition": "Que actúa o procede sin reflexión",
+      "id": 153
+    },
+    {
+      "value": "Vengativo",
+      "definition": "Que se venga con frecuencia de las ofensas o daños recibidos, por leves que estos sean",
+      "id": 154
+    },
+    {
+      "value": "Inquieto",
+      "definition": "Que se mueve a menudo o es de índole bulliciosa",
+      "id": 155
+    },
+    {
+      "value": "Poca Voluntad",
+      "definition": "Falta de ganas de hacer cosas",
+      "id": 156
+    },
+    {
+      "value": "Precipitado",
+      "definition": "Que hace o dice las cosas de manera rápida o con mucha prisa y sin pensar en las consecuencias",
+      "id": 157
+    },
+    {
+      "value": "Comprometido",
+      "definition": "Se dice que una persona se encuentra comprometida con algo cuando cumple con sus obligaciones, con aquello que se ha propuesto o que le ha sido encomendado. Es decir que vive, planifica y reacciona de forma acertada para conseguir sacar adelante un proyecto, una familia, el trabajo, sus estudios, etc",
+      "id": 158
+    },
+    {
+      "value": "Crítico",
+      "definition": "Persona que realiza críticas sobre un tema o cosa con el objetivo de mejorar a los mismos",
+      "id": 159
+    },
+    {
+      "value": "Variable",
+      "definition": "Que sufre constantes o frecuentes alteraciones del carácter, el humor o la tranquilidad",
+      "id": 161
+    },
+    {
+      "value": "Testarudo",
+      "definition": "Que se mantiene firme o inamovible en su actitud, aunque se le den razones en contra",
+      "id": 162
+    },
+    {
+      "value": "Astuto",
+      "definition": "Que muestra habilidad para comprender las cosas y obtener provecho o beneficio mediante engaño o evitándolo",
+      "id": 163
+    }
+  ],
+  "personalidades": [
+    {
+      "id": 1,
+      "value": "Colérico",
+      "definition": "Info extra del Colérico",
+      "color": "amarillo"
+    },
+    {
+      "id": 2,
+      "value": "Flemático",
+      "definition": "Info extra del Flemático",
+      "color": "azul"
+    },
+    {
+      "id": 3,
+      "value": "Melancólico",
+      "definition": "Info extra del Melancólico",
+      "color": "verde"
+    },
+    {
+      "id": 4,
+      "value": "Sanguíneo",
+      "definition": "Info extra del Sanguíneo",
+      "color": "rojo"
+    }
+  ],
+  "pregs-res": [
+    {
+      "id": 1,
+      "id_pregunta": 1,
+      "id_respuesta": 1,
+      "id_personalidad": 4
+    },
+    {
+      "id": 2,
+      "id_pregunta": 1,
+      "id_respuesta": 2,
+      "id_personalidad": 1
+    },
+    {
+      "id": 3,
+      "id_pregunta": 1,
+      "id_respuesta": 3,
+      "id_personalidad": 3
+    },
+    {
+      "id": 4,
+      "id_pregunta": 1,
+      "id_respuesta": 4,
+      "id_personalidad": 2
+    },
+    {
+      "id": 5,
+      "id_pregunta": 2,
+      "id_respuesta": 5,
+      "id_personalidad": 3
+    },
+    {
+      "id": 6,
+      "id_pregunta": 2,
+      "id_respuesta": 6,
+      "id_personalidad": 4
+    },
+    {
+      "id": 7,
+      "id_pregunta": 2,
+      "id_respuesta": 7,
+      "id_personalidad": 1
+    },
+    {
+      "id": 8,
+      "id_pregunta": 2,
+      "id_respuesta": 8,
+      "id_personalidad": 2
+    },
+    {
+      "id": 9,
+      "id_pregunta": 3,
+      "id_respuesta": 9,
+      "id_personalidad": 2
+    },
+    {
+      "id": 10,
+      "id_pregunta": 3,
+      "id_respuesta": 10,
+      "id_personalidad": 3
+    },
+    {
+      "id": 11,
+      "id_pregunta": 3,
+      "id_respuesta": 11,
+      "id_personalidad": 4
+    },
+    {
+      "id": 12,
+      "id_pregunta": 3,
+      "id_respuesta": 12,
+      "id_personalidad": 1
+    },
+    {
+      "id": 13,
+      "id_pregunta": 4,
+      "id_respuesta": 13,
+      "id_personalidad": 3
+    },
+    {
+      "id": 14,
+      "id_pregunta": 4,
+      "id_respuesta": 14,
+      "id_personalidad": 2
+    },
+    {
+      "id": 15,
+      "id_pregunta": 4,
+      "id_respuesta": 15,
+      "id_personalidad": 1
+    },
+    {
+      "id": 16,
+      "id_pregunta": 4,
+      "id_respuesta": 16,
+      "id_personalidad": 4
+    },
+    {
+      "id": 17,
+      "id_pregunta": 5,
+      "id_respuesta": 17,
+      "id_personalidad": 4
+    },
+    {
+      "id": 18,
+      "id_pregunta": 5,
+      "id_respuesta": 18,
+      "id_personalidad": 3
+    },
+    {
+      "id": 19,
+      "id_pregunta": 5,
+      "id_respuesta": 19,
+      "id_personalidad": 2
+    },
+    {
+      "id": 20,
+      "id_pregunta": 5,
+      "id_respuesta": 20,
+      "id_personalidad": 1
+    },
+    {
+      "id_pregunta": 6,
+      "id_personalidad": 2,
+      "id_respuesta": 21,
+      "id": 21
+    },
+    {
+      "id_pregunta": 6,
+      "id_personalidad": 3,
+      "id_respuesta": 22,
+      "id": 22
+    },
+    {
+      "id_pregunta": 6,
+      "id_personalidad": 1,
+      "id_respuesta": 23,
+      "id": 23
+    },
+    {
+      "id_pregunta": 6,
+      "id_personalidad": 4,
+      "id_respuesta": 24,
+      "id": 24
+    },
+    {
+      "id_pregunta": 7,
+      "id_personalidad": 3,
+      "id_respuesta": 25,
+      "id": 25
+    },
+    {
+      "id_pregunta": 7,
+      "id_personalidad": 2,
+      "id_respuesta": 26,
+      "id": 26
+    },
+    {
+      "id_pregunta": 7,
+      "id_personalidad": 1,
+      "id_respuesta": 27,
+      "id": 27
+    },
+    {
+      "id_pregunta": 7,
+      "id_personalidad": 4,
+      "id_respuesta": 28,
+      "id": 28
+    },
+    {
+      "id_pregunta": 8,
+      "id_personalidad": 1,
+      "id_respuesta": 29,
+      "id": 29
+    },
+    {
+      "id_pregunta": 8,
+      "id_personalidad": 4,
+      "id_respuesta": 30,
+      "id": 30
+    },
+    {
+      "id_pregunta": 8,
+      "id_personalidad": 3,
+      "id_respuesta": 31,
+      "id": 31
+    },
+    {
+      "id_pregunta": 8,
+      "id_personalidad": 2,
+      "id_respuesta": 32,
+      "id": 32
+    },
+    {
+      "id_pregunta": 9,
+      "id_personalidad": 3,
+      "id_respuesta": 33,
+      "id": 33
+    },
+    {
+      "id_pregunta": 9,
+      "id_personalidad": 2,
+      "id_respuesta": 34,
+      "id": 34
+    },
+    {
+      "id_pregunta": 9,
+      "id_personalidad": 1,
+      "id_respuesta": 35,
+      "id": 35
+    },
+    {
+      "id_pregunta": 9,
+      "id_personalidad": 4,
+      "id_respuesta": 36,
+      "id": 36
+    },
+    {
+      "id_pregunta": 10,
+      "id_personalidad": 2,
+      "id_respuesta": 37,
+      "id": 37
+    },
+    {
+      "id_pregunta": 10,
+      "id_personalidad": 3,
+      "id_respuesta": 38,
+      "id": 38
+    },
+    {
+      "id_pregunta": 10,
+      "id_personalidad": 4,
+      "id_respuesta": 39,
+      "id": 39
+    },
+    {
+      "id_pregunta": 10,
+      "id_personalidad": 1,
+      "id_respuesta": 40,
+      "id": 40
+    },
+    {
+      "id_pregunta": 11,
+      "id_personalidad": 1,
+      "id_respuesta": 41,
+      "id": 41
+    },
+    {
+      "id_pregunta": 11,
+      "id_personalidad": 4,
+      "id_respuesta": 42,
+      "id": 42
+    },
+    {
+      "id_pregunta": 11,
+      "id_personalidad": 2,
+      "id_respuesta": 43,
+      "id": 43
+    },
+    {
+      "id_pregunta": 11,
+      "id_personalidad": 3,
+      "id_respuesta": 44,
+      "id": 44
+    },
+    {
+      "id_pregunta": 12,
+      "id_personalidad": 4,
+      "id_respuesta": 45,
+      "id": 45
+    },
+    {
+      "id_pregunta": 12,
+      "id_personalidad": 2,
+      "id_respuesta": 46,
+      "id": 46
+    },
+    {
+      "id_pregunta": 12,
+      "id_personalidad": 3,
+      "id_respuesta": 47,
+      "id": 47
+    },
+    {
+      "id_pregunta": 12,
+      "id_personalidad": 1,
+      "id_respuesta": 48,
+      "id": 48
+    },
+    {
+      "id_pregunta": 13,
+      "id_personalidad": 3,
+      "id_respuesta": 49,
+      "id": 49
+    },
+    {
+      "id_pregunta": 13,
+      "id_personalidad": 1,
+      "id_respuesta": 50,
+      "id": 50
+    },
+    {
+      "id_pregunta": 13,
+      "id_personalidad": 2,
+      "id_respuesta": 51,
+      "id": 51
+    },
+    {
+      "id_pregunta": 13,
+      "id_personalidad": 4,
+      "id_respuesta": 52,
+      "id": 52
+    },
+    {
+      "id_pregunta": 14,
+      "id_personalidad": 4,
+      "id_respuesta": 53,
+      "id": 53
+    },
+    {
+      "id_pregunta": 14,
+      "id_personalidad": 1,
+      "id_respuesta": 54,
+      "id": 54
+    },
+    {
+      "id_pregunta": 14,
+      "id_personalidad": 2,
+      "id_respuesta": 55,
+      "id": 55
+    },
+    {
+      "id_pregunta": 14,
+      "id_personalidad": 3,
+      "id_respuesta": 56,
+      "id": 56
+    },
+    {
+      "id_pregunta": 15,
+      "id_personalidad": 2,
+      "id_respuesta": 57,
+      "id": 57
+    },
+    {
+      "id_pregunta": 15,
+      "id_personalidad": 3,
+      "id_respuesta": 58,
+      "id": 58
+    },
+    {
+      "id_pregunta": 15,
+      "id_personalidad": 1,
+      "id_respuesta": 59,
+      "id": 59
+    },
+    {
+      "id_pregunta": 15,
+      "id_personalidad": 4,
+      "id_respuesta": 60,
+      "id": 60
+    },
+    {
+      "id_pregunta": 16,
+      "id_personalidad": 3,
+      "id_respuesta": 61,
+      "id": 61
+    },
+    {
+      "id_pregunta": 16,
+      "id_personalidad": 1,
+      "id_respuesta": 62,
+      "id": 62
+    },
+    {
+      "id_pregunta": 16,
+      "id_personalidad": 4,
+      "id_respuesta": 63,
+      "id": 63
+    },
+    {
+      "id_pregunta": 16,
+      "id_personalidad": 2,
+      "id_respuesta": 64,
+      "id": 64
+    },
+    {
+      "id_pregunta": 17,
+      "id_personalidad": 2,
+      "id_respuesta": 65,
+      "id": 65
+    },
+    {
+      "id_pregunta": 17,
+      "id_personalidad": 3,
+      "id_respuesta": 66,
+      "id": 66
+    },
+    {
+      "id_pregunta": 17,
+      "id_personalidad": 1,
+      "id_respuesta": 67,
+      "id": 67
+    },
+    {
+      "id_pregunta": 17,
+      "id_personalidad": 4,
+      "id_respuesta": 68,
+      "id": 68
+    },
+    {
+      "id_pregunta": 18,
+      "id_personalidad": 2,
+      "id_respuesta": 69,
+      "id": 69
+    },
+    {
+      "id_pregunta": 18,
+      "id_personalidad": 1,
+      "id_respuesta": 70,
+      "id": 70
+    },
+    {
+      "id_pregunta": 18,
+      "id_personalidad": 3,
+      "id_respuesta": 71,
+      "id": 71
+    },
+    {
+      "id_pregunta": 18,
+      "id_personalidad": 4,
+      "id_respuesta": 72,
+      "id": 72
+    },
+    {
+      "id_pregunta": 19,
+      "id_personalidad": 3,
+      "id_respuesta": 73,
+      "id": 73
+    },
+    {
+      "id_pregunta": 19,
+      "id_personalidad": 2,
+      "id_respuesta": 74,
+      "id": 74
+    },
+    {
+      "id_pregunta": 19,
+      "id_personalidad": 1,
+      "id_respuesta": 75,
+      "id": 75
+    },
+    {
+      "id_pregunta": 19,
+      "id_personalidad": 4,
+      "id_respuesta": 76,
+      "id": 76
+    },
+    {
+      "id_pregunta": 20,
+      "id_personalidad": 4,
+      "id_respuesta": 77,
+      "id": 77
+    },
+    {
+      "id_pregunta": 20,
+      "id_personalidad": 1,
+      "id_respuesta": 78,
+      "id": 78
+    },
+    {
+      "id_pregunta": 20,
+      "id_personalidad": 3,
+      "id_respuesta": 79,
+      "id": 79
+    },
+    {
+      "id_pregunta": 20,
+      "id_personalidad": 2,
+      "id_respuesta": 80,
+      "id": 80
+    },
+    {
+      "id_pregunta": 21,
+      "id_personalidad": 4,
+      "id_respuesta": 81,
+      "id": 81
+    },
+    {
+      "id_pregunta": 21,
+      "id_personalidad": 1,
+      "id_respuesta": 82,
+      "id": 82
+    },
+    {
+      "id_pregunta": 21,
+      "id_personalidad": 3,
+      "id_respuesta": 83,
+      "id": 83
+    },
+    {
+      "id_pregunta": 21,
+      "id_personalidad": 2,
+      "id_respuesta": 84,
+      "id": 84
+    },
+    {
+      "id_pregunta": 22,
+      "id_personalidad": 4,
+      "id_respuesta": 85,
+      "id": 85
+    },
+    {
+      "id_pregunta": 22,
+      "id_personalidad": 1,
+      "id_respuesta": 86,
+      "id": 86
+    },
+    {
+      "id_pregunta": 22,
+      "id_personalidad": 3,
+      "id_respuesta": 87,
+      "id": 87
+    },
+    {
+      "id_pregunta": 22,
+      "id_personalidad": 2,
+      "id_respuesta": 88,
+      "id": 88
+    },
+    {
+      "id_pregunta": 23,
+      "id_personalidad": 2,
+      "id_respuesta": 89,
+      "id": 89
+    },
+    {
+      "id_pregunta": 23,
+      "id_personalidad": 3,
+      "id_respuesta": 90,
+      "id": 90
+    },
+    {
+      "id_pregunta": 23,
+      "id_personalidad": 1,
+      "id_respuesta": 91,
+      "id": 91
+    },
+    {
+      "id_pregunta": 23,
+      "id_personalidad": 4,
+      "id_respuesta": 92,
+      "id": 92
+    },
+    {
+      "id_pregunta": 24,
+      "id_personalidad": 3,
+      "id_respuesta": 93,
+      "id": 93
+    },
+    {
+      "id_pregunta": 24,
+      "id_personalidad": 2,
+      "id_respuesta": 94,
+      "id": 94
+    },
+    {
+      "id_pregunta": 24,
+      "id_personalidad": 4,
+      "id_respuesta": 95,
+      "id": 95
+    },
+    {
+      "id_pregunta": 24,
+      "id_personalidad": 1,
+      "id_respuesta": 96,
+      "id": 96
+    },
+    {
+      "id_pregunta": 25,
+      "id_personalidad": 1,
+      "id_respuesta": 97,
+      "id": 97
+    },
+    {
+      "id_pregunta": 25,
+      "id_personalidad": 3,
+      "id_respuesta": 98,
+      "id": 98
+    },
+    {
+      "id_pregunta": 25,
+      "id_personalidad": 2,
+      "id_respuesta": 99,
+      "id": 99
+    },
+    {
+      "id_pregunta": 25,
+      "id_personalidad": 4,
+      "id_respuesta": 100,
+      "id": 100
+    },
+    {
+      "id_pregunta": 26,
+      "id_personalidad": 2,
+      "id_respuesta": 101,
+      "id": 101
+    },
+    {
+      "id_pregunta": 26,
+      "id_personalidad": 3,
+      "id_respuesta": 102,
+      "id": 102
+    },
+    {
+      "id_pregunta": 26,
+      "id_personalidad": 4,
+      "id_respuesta": 103,
+      "id": 103
+    },
+    {
+      "id_pregunta": 26,
+      "id_personalidad": 1,
+      "id_respuesta": 104,
+      "id": 104
+    },
+    {
+      "id_pregunta": 27,
+      "id_personalidad": 1,
+      "id_respuesta": 105,
+      "id": 106
+    },
+    {
+      "id_pregunta": 27,
+      "id_personalidad": 4,
+      "id_respuesta": 113,
+      "id": 114
+    },
+    {
+      "id_pregunta": 27,
+      "id_personalidad": 3,
+      "id_respuesta": 107,
+      "id": 107
+    },
+    {
+      "id_pregunta": 27,
+      "id_personalidad": 2,
+      "id_respuesta": 108,
+      "id": 108
+    },
+    {
+      "id_pregunta": 28,
+      "id_personalidad": 2,
+      "id_respuesta": 109,
+      "id": 109
+    },
+    {
+      "id_pregunta": 28,
+      "id_personalidad": 3,
+      "id_respuesta": 110,
+      "id": 110
+    },
+    {
+      "id_pregunta": 28,
+      "id_personalidad": 1,
+      "id_respuesta": 111,
+      "id": 112
+    },
+    {
+      "id_pregunta": 28,
+      "id_personalidad": 4,
+      "id_respuesta": 112,
+      "id": 113
+    },
+    {
+      "id_pregunta": 29,
+      "id_personalidad": 4,
+      "id_respuesta": 114,
+      "id": 115
+    },
+    {
+      "id_pregunta": 29,
+      "id_personalidad": 3,
+      "id_respuesta": 115,
+      "id": 116
+    },
+    {
+      "id_pregunta": 29,
+      "id_personalidad": 1,
+      "id_respuesta": 116,
+      "id": 117
+    },
+    {
+      "id_pregunta": 29,
+      "id_personalidad": 2,
+      "id_respuesta": 117,
+      "id": 118
+    },
+    {
+      "id_pregunta": 30,
+      "id_personalidad": 4,
+      "id_respuesta": 118,
+      "id": 119
+    },
+    {
+      "id_pregunta": 30,
+      "id_personalidad": 3,
+      "id_respuesta": 119,
+      "id": 120
+    },
+    {
+      "id_pregunta": 30,
+      "id_personalidad": 1,
+      "id_respuesta": 120,
+      "id": 121
+    },
+    {
+      "id_pregunta": 30,
+      "id_personalidad": 2,
+      "id_respuesta": 121,
+      "id": 122
+    },
+    {
+      "id_pregunta": 31,
+      "id_personalidad": 2,
+      "id_respuesta": 122,
+      "id": 123
+    },
+    {
+      "id_pregunta": 31,
+      "id_personalidad": 3,
+      "id_respuesta": 123,
+      "id": 124
+    },
+    {
+      "id_pregunta": 31,
+      "id_personalidad": 1,
+      "id_respuesta": 124,
+      "id": 125
+    },
+    {
+      "id_pregunta": 31,
+      "id_personalidad": 4,
+      "id_respuesta": 125,
+      "id": 126
+    },
+    {
+      "id_pregunta": 32,
+      "id_personalidad": 3,
+      "id_respuesta": 126,
+      "id": 127
+    },
+    {
+      "id_pregunta": 32,
+      "id_personalidad": 1,
+      "id_respuesta": 127,
+      "id": 128
+    },
+    {
+      "id_pregunta": 32,
+      "id_personalidad": 2,
+      "id_respuesta": 128,
+      "id": 129
+    },
+    {
+      "id_pregunta": 32,
+      "id_personalidad": 4,
+      "id_respuesta": 129,
+      "id": 130
+    },
+    {
+      "id_pregunta": 33,
+      "id_personalidad": 2,
+      "id_respuesta": 130,
+      "id": 131
+    },
+    {
+      "id_pregunta": 33,
+      "id_personalidad": 4,
+      "id_respuesta": 131,
+      "id": 132
+    },
+    {
+      "id_pregunta": 33,
+      "id_personalidad": 1,
+      "id_respuesta": 132,
+      "id": 133
+    },
+    {
+      "id_pregunta": 33,
+      "id_personalidad": 3,
+      "id_respuesta": 133,
+      "id": 134
+    },
+    {
+      "id_pregunta": 34,
+      "id_personalidad": 4,
+      "id_respuesta": 134,
+      "id": 135
+    },
+    {
+      "id_pregunta": 34,
+      "id_personalidad": 3,
+      "id_respuesta": 135,
+      "id": 136
+    },
+    {
+      "id_pregunta": 34,
+      "id_personalidad": 1,
+      "id_respuesta": 136,
+      "id": 137
+    },
+    {
+      "id_pregunta": 34,
+      "id_personalidad": 2,
+      "id_respuesta": 137,
+      "id": 138
+    },
+    {
+      "id_pregunta": 35,
+      "id_personalidad": 4,
+      "id_respuesta": 138,
+      "id": 139
+    },
+    {
+      "id_pregunta": 35,
+      "id_personalidad": 3,
+      "id_respuesta": 139,
+      "id": 140
+    },
+    {
+      "id_pregunta": 35,
+      "id_personalidad": 2,
+      "id_respuesta": 140,
+      "id": 141
+    },
+    {
+      "id_pregunta": 35,
+      "id_personalidad": 1,
+      "id_respuesta": 141,
+      "id": 142
+    },
+    {
+      "id_pregunta": 36,
+      "id_personalidad": 2,
+      "id_respuesta": 142,
+      "id": 143
+    },
+    {
+      "id_pregunta": 36,
+      "id_personalidad": 4,
+      "id_respuesta": 144,
+      "id": 144
+    },
+    {
+      "id_pregunta": 36,
+      "id_personalidad": 3,
+      "id_respuesta": 145,
+      "id": 145
+    },
+    {
+      "id_pregunta": 37,
+      "id_personalidad": 3,
+      "id_respuesta": 146,
+      "id": 146
+    },
+    {
+      "id_pregunta": 37,
+      "id_personalidad": 1,
+      "id_respuesta": 147,
+      "id": 147
+    },
+    {
+      "id_pregunta": 37,
+      "id_personalidad": 2,
+      "id_respuesta": 148,
+      "id": 148
+    },
+    {
+      "id_pregunta": 37,
+      "id_personalidad": 4,
+      "id_respuesta": 149,
+      "id": 149
+    },
+    {
+      "id_pregunta": 38,
+      "id_personalidad": 2,
+      "id_respuesta": 150,
+      "id": 150
+    },
+    {
+      "id_pregunta": 38,
+      "id_personalidad": 3,
+      "id_respuesta": 151,
+      "id": 151
+    },
+    {
+      "id_pregunta": 38,
+      "id_personalidad": 1,
+      "id_respuesta": 152,
+      "id": 152
+    },
+    {
+      "id_pregunta": 38,
+      "id_personalidad": 4,
+      "id_respuesta": 153,
+      "id": 153
+    },
+    {
+      "id_pregunta": 39,
+      "id_personalidad": 3,
+      "id_respuesta": 154,
+      "id": 154
+    },
+    {
+      "id_pregunta": 39,
+      "id_personalidad": 4,
+      "id_respuesta": 155,
+      "id": 155
+    },
+    {
+      "id_pregunta": 39,
+      "id_personalidad": 2,
+      "id_respuesta": 156,
+      "id": 156
+    },
+    {
+      "id_pregunta": 39,
+      "id_personalidad": 1,
+      "id_respuesta": 157,
+      "id": 157
+    },
+    {
+      "id_pregunta": 40,
+      "id_personalidad": 3,
+      "id_respuesta": 158,
+      "id": 158
+    },
+    {
+      "id_pregunta": 40,
+      "id_personalidad": 2,
+      "id_respuesta": 159,
+      "id": 159
+    },
+    {
+      "id_pregunta": 40,
+      "id_personalidad": 4,
+      "id_respuesta": 161,
+      "id": 160
+    },
+    {
+      "id_pregunta": 36,
+      "id_personalidad": 1,
+      "id_respuesta": 162,
+      "id": 161
+    },
+    {
+      "id_pregunta": 40,
+      "id_personalidad": 1,
+      "id_respuesta": 163,
+      "id": 162
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Hogar",
+      "link_amway": "https://www.amway.com.ar/Store/Catalogue.aspx?show=Top&line=R"
+    },
+    {
+      "id": 2,
+      "nombre": "Belleza",
+      "link_amway": "https://www.amway.com.ar/Store/Catalogue.aspx?show=Top&line=Q"
+    },
+    {
+      "id": 3,
+      "nombre": "Cuidado Personal",
+      "link_amway": "https://www.amway.com.ar/Store/Catalogue.aspx?show=Top&line=N"
+    },
+    {
+      "id": 4,
+      "nombre": "Nutrición",
+      "link_amway": "https://www.amway.com.ar/Store/Catalogue.aspx?show=Top&line=P"
+    }
+  ],
+  "kits": [
+    {
+      "id": 1,
+      "nombre": "example data 1",
+      "beneficios": "",
+      "precio_publico": "$1.700",
+      "precio_empresario": "$2.300",
+      "puntos": "12,34",
+      "reemplaza": "2 skip de 3 litros, 3 jab. pol. de 3kg, ...",
+      "ahorro_estimado_dinero": "$2.000",
+      "ahorro_estimado_plastico": "4 envases de litro, 3 tetra pack",
+      "productos": "Jabón, blanqueador y suavizante",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "nombre": "example data 2",
+      "beneficios": "",
+      "precio_publico": "$1.700",
+      "precio_empresario": "$2.300",
+      "puntos": "43,21",
+      "reemplaza": "2 skip de 3 litros, 3 jab. pol. de 3kg, ...",
+      "ahorro_estimado_dinero": "$2000",
+      "ahorro_estimado_plastico": "",
+      "productos": "Loc, Dish, Pursue, Jabón, blanqueador y suavizante",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "nombre": "Belleza 1",
+      "beneficios": "",
+      "precio_publico": "",
+      "precio_empresario": "",
+      "puntos": "",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "BB Cream, Corrector de ojeras e imperfecciones",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "nombre": "Belleza 2",
+      "beneficios": "",
+      "precio_publico": "",
+      "precio_empresario": "",
+      "puntos": "",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "Toallitas humectantes, Gel limpiador, Loción multiprotectora y Protector solar",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "nombre": "Superficies",
+      "beneficios": "",
+      "precio_publico": "",
+      "precio_empresario": "",
+      "puntos": "",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "LOC, Dish + botella, Pursue + Frasco c/gatillo",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "nombre": "Lavandería 1",
+      "beneficios": "",
+      "precio_publico": "",
+      "precio_empresario": "",
+      "puntos": "",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "Jabón en polvo 1kg, Blanqueador y Suavizante",
+      "link": ""
+    },
+    {
+      "id": 7,
+      "nombre": "Bucal",
+      "beneficios": "",
+      "precio_publico": "$1.946,99",
+      "precio_empresario": "$1.460,25",
+      "puntos": "22,99",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "4 Cepillos, Pasta 200grs, Refrescante (150 usos), Enjuague bucal",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "nombre": "Ducha",
+      "beneficios": "",
+      "precio_publico": "$1.449,98",
+      "precio_empresario": "$1.087,49",
+      "puntos": "17,12",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "1 Shampoo y 1 acondicionar Ertia y 2 Jabones vegetales Ertia",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "nombre": "Shock de Vitamina C",
+      "beneficios": "<br>-Acción antioxidante que previene el envejecimiento prematuro. <br>-Favorece la regeneración celular y la producción de colágeno. <br>-Con vitamina C, cereza acerola y ácido hialurónico.",
+      "precio_publico": "$2.890,00",
+      "precio_empresario": "$2.167,50",
+      "puntos": "34,12",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "1 C Plus y Vitamina C + HA",
+      "link": "http://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&BC=295105"
+    },
+    {
+      "id": 10,
+      "nombre": "Belleza Integral",
+      "beneficios": "<br>-Acción antioxidante que previene el envejecimiento prematuro.<br>-Favorece la protección y fortalecimiento del cabello, piel y uñas.<br>-Con vitaminas, extracto de semilla de uva, agua de coco y aceite de nuez.",
+      "precio_publico": "$2.665,00",
+      "precio_empresario": "$1.998,75",
+      "puntos": "31,46",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "1 HSN, 1 Mascarilla revitalizante y  1 loción multiprotectora SPF 30 Essentials",
+      "link": "http://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&BC=295106"
+    },
+    {
+      "id": 11,
+      "nombre": "Mañanas Full",
+      "beneficios": "-Provee de energía para un mejor rendimiento físico e intelectual por hasta 8 horas.<br>-Piel humectada y cuidada.<br>-Aliento fresco y dientes protegidos de caries y placa.",
+      "precio_publico": "$2.425,00",
+      "precio_empresario": "$1.818,75",
+      "puntos": "28,63",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "1 B Plus, 1 Gel limpiador, 1 Jabón vegetal Ertia, 1 Pasta dental y 1 Enjuague bucal",
+      "link": "http://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&BC=296285"
+    },
+    {
+      "id": 12,
+      "nombre": "Nutrición completa",
+      "beneficios": "",
+      "precio_publico": "$4.335,00",
+      "precio_empresario": "$3.251,25",
+      "puntos": "51,18",
+      "reemplaza": "",
+      "ahorro_estimado_dinero": "",
+      "ahorro_estimado_plastico": "",
+      "productos": "1 Double X y 1 Omega 3 Plus 90 comprimidos",
+      "link": ""
+    }
+  ],
+  "categorias_kits": [
+    {
+      "id": 1,
+      "id_categoria": 1,
+      "id_kit": 1
+    },
+    {
+      "id": 2,
+      "id_categoria": 1,
+      "id_kit": 2
+    },
+    {
+      "id": 3,
+      "id_categoria": 2,
+      "id_kit": 3
+    },
+    {
+      "id": 4,
+      "id_categoria": 2,
+      "id_kit": 4
+    },
+    {
+      "id": 5,
+      "id_categoria": 1,
+      "id_kit": 5
+    },
+    {
+      "id": 6,
+      "id_categoria": 1,
+      "id_kit": 6
+    },
+    {
+      "id": 7,
+      "id_categoria": 3,
+      "id_kit": 7
+    },
+    {
+      "id": 8,
+      "id_categoria": 3,
+      "id_kit": 8
+    },
+    {
+      "id": 9,
+      "id_categoria": 2,
+      "id_kit": 9
+    },
+    {
+      "id": 10,
+      "id_categoria": 4,
+      "id_kit": 9
+    },
+    {
+      "id": 11,
+      "id_categoria": 4,
+      "id_kit": 10
+    },
+    {
+      "id": 12,
+      "id_categoria": 2,
+      "id_kit": 10
+    },
+    {
+      "id": 13,
+      "id_categoria": 4,
+      "id_kit": 11
+    },
+    {
+      "id": 14,
+      "id_categoria": 3,
+      "id_kit": 11
+    },
+    {
+      "id": 15,
+      "id_categoria": 4,
+      "id_kit": 12
+    }
+  ]
+}

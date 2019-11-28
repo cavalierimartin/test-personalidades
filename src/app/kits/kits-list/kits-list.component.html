@@ -1,0 +1,55 @@
+<div *ngIf="!siteLoaded" class="text-center">
+  <div class="spinner-grow text-info" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</div>
+<div *ngIf="siteLoaded === true" id="kits-container">
+  <h3 *ngIf="categoriaActual">Kits de {{categoriaActual.nombre}}</h3>
+  <h3 *ngIf="!categoriaActual">Todos los kits</h3>
+  <div *ngFor="let kit of filteredKits">
+    <div class="card card-container col-12">
+    <!--
+      <div class="info-actions-container">
+        <div class="prices-container">
+          <label>P.P.: $2300</label>
+          <label>P.E.: $1900</label>
+        </div>
+        <div class="more-info-container">
+          <label class="text-center card-toggler"><button type="button"> ? </button></label>
+        </div>
+      </div>
+    -->
+      <div class="basic-info-container">
+        <h4>{{kit.nombre}} <label style="font-weight: normal" *ngIf="kit.puntos">({{kit.puntos}} pts.)</label></h4>
+        <p><b>P.P./P.E:</b> {{kit.precio_publico}} / {{kit.precio_empresario}}</p>
+        <p><b>Productos:</b> {{kit.productos}}</p>
+      </div>
+      <div class="full-info-container toggle" (click)="toggleCard($event)" style="display: none">
+        <div class="full-info">
+          <p *ngIf="kit.reemplaza"><b>Reemplaza: </b>{{kit.reemplaza}}</p>
+          <p *ngIf="kit.beneficios"><b>Beneficios: </b><span [innerHTML]="kit.beneficios"></span></p>
+          <p *ngIf="(kit.ahorro_estimado_plastico && kit.ahorro_estimado_dinero)">
+            <b>Ahorro estimado: </b>{{kit.ahorro_estimado_dinero}} y {{kit.ahorro_estimado_plastico}}
+          </p>
+          <p *ngIf="!(kit.ahorro_estimado_plastico && kit.ahorro_estimado_dinero) && (kit.ahorro_estimado_plastico || kit.ahorro_estimado_dinero)">
+            <b>Ahorro estimado: </b>{{kit.ahorro_estimado_dinero}}{{kit.ahorro_estimado_plastico}}
+          </p>
+        </div>
+        <div class="buttons-fullinfo-container text-center row">
+        <!--
+          <div class="col-6 no-gutters">
+            <button type="button" class="card-toggler">Minimizar</button>
+          </div>
+        -->
+          <div class="col-12 no-gutters">
+            <a href="{{kit.link}}" target="_blank">Más info ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <button class="col-12 card-toggler" (click)="toggleCard($event)">▼</button>
+      </div>
+    </div>
+    <!--<span *ngFor="let kit of kits">{{kit}}</span>-->
+  </div>
+</div>
